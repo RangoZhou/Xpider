@@ -1,0 +1,2505 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>编码查询 - 拆五笔</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel='dns-prefetch' href='//libs.baidu.com' />
+<link rel='stylesheet' id='style-css'  href='http://www.chaiwubi.com/wp-content/themes/chaiwubi/style.css?ver=2015.02.07' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css'  href='http://www.chaiwubi.com/wp-content/themes/chaiwubi/css/animate.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='http://www.chaiwubi.com/wp-content/themes/chaiwubi/css/jquery.fancybox.css?ver=2.15' type='text/css' media='all' />
+<link rel='stylesheet' id='page-css'  href='http://www.chaiwubi.com/wp-content/themes/chaiwubi/css/page.css?ver=1.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://libs.baidu.com/jquery/1.10.1/jquery.min.js?ver=1.10.1'></script>
+<script type='text/javascript' src='http://www.chaiwubi.com/wp-content/themes/chaiwubi/js/jquery.fancybox.js?ver=2.15'></script>
+<link rel="canonical" href="http://www.chaiwubi.com/bmcx/" />
+<meta property="qc:admins" content="20004523576301175216375" />
+<meta name="360_union_verify" content="a7f01c497de83716732aa046ab22b5f4"><link rel='dns-prefetch' href='http://att.chaiwubi.com/' />
+<link rel='dns-prefetch' href='http://cpro.baidustatic.com/' />
+<!--[if lt IE 9]>
+<script type="text/javascript">
+	location.href = '/ucenter/noie/';
+</script>
+<![endif]-->
+</head>
+<body>
+<div class="top_news">
+	<!-- 头部下滑广告样式 -->
+</div>
+<div class="t_top_nav">
+	<div class="width1024 cf">
+		<div class="t_top_nav_l">
+					</div>
+		<div class="t_top_nav_r">
+			<div class="y">
+				<ul>
+					<li><a id="copyurl" data-clipboard-text="拆五笔，五笔学习综合站！ http://www.chaiwubi.com。">推广本站</a></li>
+					<li class="last-login">
+											<a href="#" class="colorRed" rel="nofollow">个人中心暂时关闭</a>
+						<!-- <a href="javascript:;" class="colorRed cwb_login" rel="nofollow">登录</a>
+						/
+						<a href="http://www.chaiwubi.com/wp-login.php?action=register" class="colorRed" rel="nofollow">注册</a> -->
+										</li>
+				</ul>
+			</div>
+					</div>
+		<div class="cf"></div>
+	</div>
+</div>
+<div class="t_header">
+	<div class="width1024 cf">
+		<div class="t_h_logo">
+			<a class="home" target="_parent" href="/"></a>&nbsp;
+		</div>
+		<h2>
+			<a class="home" target="_parent" href="/"></a>
+			本无意与众不同，怎奈何品位出众。			<div class="J_btnheart" id="logoDianzan">
+				<div class="heartspace">
+					<img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/heart2.png" alt="" class="heart J_heart" id="logo_text_like">
+				</div>
+				<div class="warninfo J_warninfo" id="logo_warninfo">
+					<span class="error" id="logo_text_msg"></span>
+				</div>
+				<div class="zancount">
+										<span class="J_zancount" id="logo_text_count">1422</span>次赞
+				</div>
+			</div>
+					</h2>
+		<div class="t_h_search">
+			<table cellspacing="0" cellpadding="0" border="0" align="right">
+				<tbody>
+				<tr>
+					<td>
+						<!--选择selcet标签-->
+						<div class="select_box">
+							<span class="select_txt">站内</span><a class="selet_open"><b></b></a>
+							<div class="option">
+								<a>站内</a>
+								<a>百度</a>
+								<a>编码</a>
+								<!-- <a>成绩</a> -->
+							</div>
+						</div>
+						<!-- <input type="hidden" id="select_value" name="select_value" value="站内" /> -->
+						<!-- /select_box -->
+					</td>
+					<td id="search_zn">
+						<form action="http://www.chaiwubi.com" method="get">
+							<table>
+								<tbody>
+								<tr>
+									<td>
+										<input type="text" id="s" name="s" class="t_h_s_input" placeholder="站内搜索" value="">
+									</td>
+									<td>
+										<input type="submit" id="" class="t_h_s_submit" value="搜索">
+									</td>
+								</tr>										
+								</tbody>
+							</table>
+						</form>
+					</td>
+					<td id="search_bd" style="display:none;">
+						<form action="http://zhannei.baidu.com/cse/search" method="get" target="_blank">
+							<table>
+								<tbody>
+								<tr>
+									<td>
+										<input type="text" name="q" class="t_h_s_input"  placeholder="请输入关键词">
+										<input type="hidden" value="9295267994107196471" name="s">
+										<input type="hidden" value="1" name="entry">
+									</td>
+									<td>
+										<input type="submit" class="t_h_s_submit" value="搜索">
+									</td>
+								</tr>
+								</tbody>
+							</table>
+						</form>
+					</td>
+					<td id="search_bm" style="display:none;">
+						<form action="/bmcx/" method="post" target="_blank">
+							<table>
+								<tbody>
+								<tr>
+									<td>
+										<input type="text" name="wz" class="t_h_s_input" placeholder="输入要查询的字">
+										<input type="hidden" name="select_value" value="查单字">
+									</td>
+									<td>
+										<input type="submit" class="t_h_s_submit" value="搜索">
+									</td>
+								</tr>
+								</tbody>
+							</table>
+						</form>
+					</td>
+					<td id="search_cj" style="display:none;">
+						<form action="/cjcx/" method="post" target="_blank">
+							<table>
+								<tbody>
+								<tr>
+									<td>
+										<input type="text" name="qh" class="t_h_s_input" placeholder="输入QQ主显示帐号">
+										<input type="hidden" name="select_value" value="1">
+									</td>
+									<td>
+										<input type="submit" class="t_h_s_submit" value="搜索">
+									</td>
+								</tr>
+								</tbody>
+							</table>
+						</form>
+					</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+<div id="t_nav" class="t_nav">
+	<div class="width1024 cf">
+		<ul id="menu-%e4%ba%94%e7%ac%94%e5%af%bc%e8%88%aa%e8%8f%9c%e5%8d%95" class="width1024"><li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-9"><a title="拆五笔" href="http://www.chaiwubi.com/">首页</a></li>
+<li id="menu-item-18" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-18"><a title="五笔新闻" href="http://www.chaiwubi.com/category/wbxw/">五笔新闻</a>
+<ul class="sub-menu">
+	<li id="menu-item-30105" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-30105"><a href="http://www.chaiwubi.com/category/ywjz/">咬文嚼字</a></li>
+</ul>
+</li>
+<li id="menu-item-17" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-17"><a title="五笔教程" href="http://www.chaiwubi.com/category/wbjc/">五笔教程</a>
+<ul class="sub-menu">
+	<li id="menu-item-30335" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-30335"><a href="http://www.chaiwubi.com/category/experience/">打字经验</a></li>
+</ul>
+</li>
+<li id="menu-item-42" class="cwb_hot menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-40 current_page_item menu-item-has-children menu-item-42"><a title="编码查询" href="http://www.chaiwubi.com/bmcx/">编码查询</a>
+<ul class="sub-menu">
+	<li id="menu-item-30289" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30289"><a href="http://www.chaiwubi.com/match/">赛文录入系统</a></li>
+</ul>
+</li>
+<li id="menu-item-216" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-216"><a href="#">在线打字</a>
+<ul class="sub-menu">
+	<li id="menu-item-20" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-20"><a title="在线打字练习" href="http://www.chaiwubi.com/category/zxdzlx/">在线打字练习</a></li>
+	<li id="menu-item-21" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-21"><a title="打字游戏" href="http://www.chaiwubi.com/category/zxdzyx/">在线打字游戏</a></li>
+	<li id="menu-item-16" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16"><a title="五笔打字比赛" href="http://www.chaiwubi.com/category/wbdzbs/">五笔打字比赛</a></li>
+</ul>
+</li>
+<li id="menu-item-448" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-448"><a href="http://www.chaiwubi.com/category/wbxg/">五笔相关下载</a>
+<ul class="sub-menu">
+	<li id="menu-item-326" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-326"><a href="http://www.chaiwubi.com/category/wbck/">五笔词库</a></li>
+	<li id="menu-item-15" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15"><a title="五笔字根表" href="http://www.chaiwubi.com/category/wbzgb/">五笔字根表</a></li>
+	<li id="menu-item-14" class="cwb_hot menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14"><a title="五笔字根壁纸" href="http://www.chaiwubi.com/category/wbzgbz/">五笔字根壁纸</a></li>
+	<li id="menu-item-19" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19"><a title="五笔输入法下载" href="http://www.chaiwubi.com/category/wbsrf/">五笔输入法下载</a></li>
+	<li id="menu-item-22" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22"><a title="打字练习软件下载" href="http://www.chaiwubi.com/category/dzlxrj/">打字练习软件下载</a></li>
+</ul>
+</li>
+<li id="menu-item-182" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-182"><a href="http://www.chaiwubi.com/feedback/">建议反馈</a>
+<ul class="sub-menu">
+	<li id="menu-item-30189" class="cwb_new menu-item menu-item-type-post_type menu-item-object-page menu-item-30189"><a href="http://www.chaiwubi.com/donate/">捐赠名单</a></li>
+	<li id="menu-item-30194" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30194"><a href="http://www.chaiwubi.com/qqgroup/">五笔相关群</a></li>
+</ul>
+</li>
+<li id="menu-item-30346" class="cwb_hot menu-item menu-item-type-custom menu-item-object-custom menu-item-30346"><a href="https://item.taobao.com/item.htm?id=535536069009">官方淘宝店</a></li>
+</ul>		<div class="cwb_sj y">
+					<div class="sj_tips">
+				<a href="http://weibo.com/chaiwubi" class="weibo" target="_blank"></a>
+				<div class="tips">
+					<div class="mui-mbar-arr mui-mbar-tab-tip-arr">◆</div>
+					微博：chaiwubi<img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/f-weibo.png" width="120" height="120">				</div>
+			</div>
+					<div class="sj_tips">
+				<a href="javascript:;" class="weixin"></a>
+				<div class="tips">
+					<div class="mui-mbar-arr mui-mbar-tab-tip-arr">◆</div>
+					微信：chaiwubi<img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/f-weixin.png" width="120" height="120">				</div>
+			</div>
+				</div>
+	</div>
+</div><script type="text/javascript">
+function showerrimg(obj){
+	var errorimg = "http://www.chaiwubi.com/static/nopic.jpg";
+	obj.src = errorimg;
+}
+</script>
+<div class="main cf">
+	<div class="m_l">
+		<div class="page_t cf">
+			<h3 itemprop="headline" class="entry-title">编码查询</h3>
+			<span></span>
+		</div>
+		<div class="page_c cf">
+			<div class="cwb_page_bmcx">
+				<form name="f" method="post" action="">
+				<div class="cwb_input">
+					<span id="sx" class="sx"><a id="su" type="submit">手写输入</a></span>
+					<div id="shouxie"></div>
+					<input id="kw" name="wz" type="text" value="的" maxlength="30" onfocus="if(this.value=='的'){this.value='';}" onblur="if(this.value==''){this.value='的';}" />
+					<!--选择selcet标签-->
+					<div class="select_box">
+						<span class="select_txt">查单字</span><a class="selet_open"><b></b></a>
+						<div class="option">
+							<a>查单字</a>
+							<!-- <a>查词组</a>
+							<a>查多字</a> -->
+						</div>
+					</div>
+					<input type="hidden" id="select_value" name="select_value" value="查单字" />
+					<!-- /select_box -->
+					<button id="cwb_cx" type="submit">点此查询</button>
+				</div>
+				</form>
+				<div class="cwb_tips">
+										默认显示王码86、98版、大一统06版编码，点击更多查看大一统86、98版、及<a href="http://www.chaiwubi.com/091/" target="_blank">091</a>版。<br /><!-- 
+					老版五笔需要<a href="http://www.chaiwubi.com/category/wbck/" target="_blank">扩展词库</a>来输入更多汉字！
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+					本系统已经被有效查询了（<strong>1810340</strong>）次！
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span id="qtj" class="colorRed">全部切换图解</span>
+					&nbsp;&nbsp;
+					<span id="qgd" class="colorRed">全部展开更多</span>
+				</div>
+												<table class="bmcx_title">
+					<tr>
+						<td class="t1">汉字</td>
+						<td class="t2">版本</td>
+						<td class="t2">一简</td>
+						<td class="t2">二简</td>
+						<td class="t2">三简</td>
+						<td class="t2">全码</td>
+						<td class="t3">字根图解</td>
+						<td class="t4">拆分图解 / 字符集编码</td>
+					</tr>
+				</table>
+								<table id="zid1" class="dw-bmcx">
+					<tr>
+						<td class="dw-bmcx-zi" rowspan="3">
+							<a href="http://www.chaiwubi.com/wbbm-zi1/" target="_blank" title="点击查看“的”的更多编码">
+								的							</a>
+						</td>
+						<td class="dw-bmcx-tit">
+							<abbr title="的的王码86五笔编码">86</abbr>
+						</td>
+						<td class="dw-bmcx-con dw-bmcx-white">
+							<strong title="的的五笔王码86版一级简码“r”">r</strong>
+						</td>
+						<td class="dw-bmcx-con">
+							<strong title="的的五笔王码86版二级简码“”"></strong>
+						</td>
+						<td class="dw-bmcx-con dw-bmcx-white">
+							<strong title="的的五笔王码86版三级简码“rqy”">rqy</strong>
+						</td>
+						<td class="dw-bmcx-con">
+							<strong title="的的五笔王码86版全码“rqyy”">rqyy</strong>
+						</td>
+						<td class="dw-bmcx-zg dw-bmcx-white" title="的的五笔王码86版字根图解">
+							<img src="http://att.chaiwubi.com/wubi/86zg/r+01.bmp" /><img src="http://att.chaiwubi.com/wubi/86zg/q+05.bmp" /><img src="http://att.chaiwubi.com/wubi/86zg/y+12.bmp" /><img src="http://att.chaiwubi.com/wubi/86zg/y+00.bmp" />						</td>
+						<td class="dw-bmcx-tj">
+							<abbr title="的的字符集编码">BM</abbr>:<strong>GB2312</strong>
+							/
+							<abbr title="的的查询次数">CX</abbr>:7175							/
+							<abbr title="的的难度指数">ND</abbr>:<i class="cwb_nd" data-ndid="1" title="感觉难你就点一下">0</i>
+						</td>
+					</tr>
+					<tr>
+						<td class="dw-bmcx-tit">
+							<abbr title="的的王码98五笔编码">98</abbr>
+						</td>
+						<td class="dw-bmcx-con dw-bmcx-white">
+							<strong title="的的五笔王码98版一级简码“r”">r</strong>
+						</td>
+						<td class="dw-bmcx-con">
+							<strong title="的的五笔王码98版二级简码“”"></strong>
+						</td>
+						<td class="dw-bmcx-con dw-bmcx-white">
+							<strong title="的的五笔王码98版三级简码“rqy”">rqy</strong>
+						</td>
+						<td class="dw-bmcx-con">
+							<strong title="的的五笔王码98版全码“rqyy”">rqyy</strong>
+						</td>
+						<td class="dw-bmcx-zg dw-bmcx-white" title="的的五笔王码86版字根图解">
+							<img src="http://att.chaiwubi.com/wubi/98zg/r+10.bmp" /><img src="http://att.chaiwubi.com/wubi/98zg/q+14.bmp" /><img src="http://att.chaiwubi.com/wubi/98zg/y+01.bmp" /><img src="http://att.chaiwubi.com/wubi/98zg/y+00.bmp" />						</td>
+						<td class="dw-bmcx-tj dw-bmcx-white" rowspan="2">
+							<div class="dw-bmcx-8698">
+								<span class="bm86 on" title="点击切换到“的”的五笔王码86版拆分图解">86</span>
+								<span class="bm98" title="点击切换到“的”的五笔王码98版拆分图解">98</span>
+								<span class="jc" title="点击显示“的”字的更多查询结果">更多</span>
+							</div>
+							<div class="dw-bmcx-86">
+								<img src="http://att.chaiwubi.com/wubi/86tj/的.gif" width="220" height="56" onerror="showerrimg(this);">
+							</div>
+							<div class="dw-bmcx-98">
+								<img src="http://att.chaiwubi.com/wubi/98tj/的.gif" width="220" height="56" onerror="showerrimg(this);">
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="dw-bmcx-tit">
+							<abbr title="的的大一统新世纪版五笔编码">06</abbr>
+						</td>
+						<td class="dw-bmcx-con dw-bmcx-white">
+							<strong title="的的五笔大一统新世纪版一级简码“r”">r</strong>
+						</td>
+						<td class="dw-bmcx-con">
+							<strong title="的的五笔大一统新世纪版二级简码“”"></strong>
+						</td>
+						<td class="dw-bmcx-con dw-bmcx-white">
+							<strong title="的的五笔大一统新世纪版三级简码“rqy”">rqy</strong>
+						</td>
+						<td class="dw-bmcx-con">
+							<strong title="的的五笔大一统新世纪版全码“rqyy”">rqyy</strong>
+						</td>
+						<td class="dw-bmcx-zg dw-bmcx-white" title="的的五笔大一统新世纪版字根图解">
+							<img src="http://att.chaiwubi.com/wubi/06zg/r+10.bmp" /><img src="http://att.chaiwubi.com/wubi/06zg/q+14.bmp" /><img src="http://att.chaiwubi.com/wubi/06zg/y+01.bmp" /><img src="http://att.chaiwubi.com/wubi/06zg/y+00.bmp" />						</td>
+					</tr>
+					<tr class="dw-wmb1 none">
+						<td class="dw-bmcx-white">
+							大一统86版
+						</td>
+						<td class="dw-bmcx-tit">
+							<abbr title="的的大一统86版五笔编码">86</abbr>
+						</td>
+						<td class="dw-bmcx-con dw-bmcx-white">
+							<strong title="的的五笔大一统86版一级简码“r”">r</strong>
+						</td>
+						<td class="dw-bmcx-con">
+							<strong title="的的五笔大一统86版二级简码“”"></strong>
+						</td>
+						<td class="dw-bmcx-con dw-bmcx-white">
+							<strong title="的的五笔大一统86版三级简码“rqy”">rqy</strong>
+						</td>
+						<td class="dw-bmcx-con">
+							<strong title="的的五笔大一统86版全码“rqyy”">rqyy</strong>
+						</td>
+						<td class="dw-bmcx-zg dw-bmcx-white" title="的的五笔大一统86版字根图解">
+							<img src="http://att.chaiwubi.com/wubi/86zg/r+01.bmp" /><img src="http://att.chaiwubi.com/wubi/86zg/q+05.bmp" /><img src="http://att.chaiwubi.com/wubi/86zg/y+12.bmp" /><img src="http://att.chaiwubi.com/wubi/86zg/y+00.bmp" />						</td>
+						<td class="dw-bmcx-tj dw-bmcx-white">
+							此为大一统86版，上方为老版86
+						</td>
+					</tr>
+					<tr class="dw-wmb1 none">
+						<td class="dw-bmcx-white">
+							大一统98版
+						</td>
+						<td class="dw-bmcx-tit">
+							<abbr title="的的大一统98版五笔编码">98</abbr>
+						</td>
+						<td class="dw-bmcx-con dw-bmcx-white">
+							<strong title="的的五笔大一统98版一级简码“r”">r</strong>
+						</td>
+						<td class="dw-bmcx-con">
+							<strong title="的的五笔大一统98版二级简码“”"></strong>
+						</td>
+						<td class="dw-bmcx-con dw-bmcx-white">
+							<strong title="的的五笔大一统98版三级简码“rqy”">rqy</strong>
+						</td>
+						<td class="dw-bmcx-con">
+							<strong title="的的五笔大一统98版全码“rqyy”">rqyy</strong>
+						</td>
+						<td class="dw-bmcx-zg dw-bmcx-white" title="的的五笔大一统98版字根图解">
+							<img src="http://att.chaiwubi.com/wubi/98zg/r+10.bmp" /><img src="http://att.chaiwubi.com/wubi/98zg/q+14.bmp" /><img src="http://att.chaiwubi.com/wubi/98zg/y+01.bmp" /><img src="http://att.chaiwubi.com/wubi/98zg/y+00.bmp" />						</td>
+						<td class="dw-bmcx-tj dw-bmcx-white">
+							此为大一统98版，上方为老版98
+						</td>
+					</tr>
+					<tr class="dw-wmb1 none">
+						<td class="dw-bmcx-white">
+							小众091版
+						</td>
+						<td class="dw-bmcx-tit">
+							<abbr title="的的091版五笔编码">091</abbr>
+						</td>
+						<td class="dw-bmcx-con dw-bmcx-white">
+							<strong title="的的五笔091版一级简码“r”">r</strong>
+						</td>
+						<td class="dw-bmcx-con">
+							<strong title="的的五笔091版二级简码“”"></strong>
+						</td>
+						<td class="dw-bmcx-con dw-bmcx-white">
+							<strong title="的的五笔091版三级简码“”"></strong>
+						</td>
+						<td class="dw-bmcx-con">
+							<strong title="的的五笔091版全码“”"></strong>
+						</td>
+						<td class="dw-bmcx-zg dw-bmcx-white" title="的的五笔091版字根图解">
+													</td>
+						<td class="dw-bmcx-tj dw-bmcx-white">
+							此为<a href="http://www.chaiwubi.com/091/" target="_blank">091</a>版编码
+						</td>
+					</tr>
+				</table>
+				<script type="text/javascript">
+					$(document).ready(function() {
+						//单字切换编码显示
+						var $dwbmqh1 = $("#zid1 .dw-bmcx-tj span");
+						$dwbmqh1.click(function () {
+							var itemIndex = $dwbmqh1.index(this);
+							if (itemIndex == 0) {
+								$("#zid1 .dw-bmcx-98").hide();
+								$("#zid1 .dw-bmcx-86").show();
+								$dwbmqh1.removeClass("on").eq(itemIndex).addClass("on");
+							} else if (itemIndex == 1) {
+								$("#zid1 .dw-bmcx-86").hide();
+								$("#zid1 .dw-bmcx-98").show();
+								$dwbmqh1.removeClass("on").eq(itemIndex).addClass("on");
+							} else if (itemIndex == 2) {
+								if ($(".dw-wmb1").is('.none')) {
+									$(".dw-wmb1").removeClass('none');
+									$("#zid1 .dw-bmcx-8698 .jc").text('隐藏');
+								}else {
+									$(".dw-wmb1").addClass('none');
+									$("#zid1 .dw-bmcx-8698 .jc").text('更多');
+								};
+							}
+						});
+					});
+				</script>
+								<p>
+					查询最多：
+					<a href="http://www.chaiwubi.com/bmcx/?wz=我" title="“我”被查询了12160次">我</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=凹" title="“凹”被查询了10478次">凹</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=凸" title="“凸”被查询了8673次">凸</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=笔" title="“笔”被查询了8007次">笔</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=拜" title="“拜”被查询了7785次">拜</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=五" title="“五”被查询了7469次">五</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=年" title="“年”被查询了7217次">年</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=的" title="“的”被查询了7176次">的</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=拆" title="“拆”被查询了6578次">拆</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=不" title="“不”被查询了6303次">不</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=你" title="“你”被查询了6157次">你</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=一" title="“一”被查询了6101次">一</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=发" title="“发”被查询了5738次">发</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=成" title="“成”被查询了5730次">成</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=人" title="“人”被查询了5373次">人</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=文" title="“文”被查询了5358次">文</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=为" title="“为”被查询了5345次">为</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=小" title="“小”被查询了5123次">小</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=长" title="“长”被查询了4940次">长</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=养" title="“养”被查询了4525次">养</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=舞" title="“舞”被查询了4515次">舞</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=余" title="“余”被查询了4498次">余</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=生" title="“生”被查询了4457次">生</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=好" title="“好”被查询了4332次">好</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=在" title="“在”被查询了4251次">在</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=美" title="“美”被查询了4174次">美</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=牛" title="“牛”被查询了4134次">牛</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=芈" title="“芈”被查询了4074次">芈</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=查" title="“查”被查询了4072次">查</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=谢" title="“谢”被查询了3938次">谢</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=民" title="“民”被查询了3914次">民</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=中" title="“中”被查询了3871次">中</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=爱" title="“爱”被查询了3812次">爱</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=心" title="“心”被查询了3770次">心</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=看" title="“看”被查询了3729次">看</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=国" title="“国”被查询了3713次">国</a>&nbsp;				</p>
+				<p>
+					感觉最难：
+					<a href="http://www.chaiwubi.com/bmcx/?wz=会" title="有2人感觉“会”难拆">会</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=民" title="有2人感觉“民”难拆">民</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=高" title="有2人感觉“高”难拆">高</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=样" title="有2人感觉“样”难拆">样</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=单" title="有2人感觉“单”难拆">单</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=青" title="有2人感觉“青”难拆">青</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=拽" title="有2人感觉“拽”难拆">拽</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=眾" title="有2人感觉“眾”难拆">眾</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=焗" title="有1人感觉“焗”难拆">焗</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=觿" title="有1人感觉“觿”难拆">觿</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=鏠" title="有1人感觉“鏠”难拆">鏠</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=艮" title="有1人感觉“艮”难拆">艮</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=馕" title="有1人感觉“馕”难拆">馕</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=匚" title="有1人感觉“匚”难拆">匚</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=礻" title="有1人感觉“礻”难拆">礻</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=丨" title="有1人感觉“丨”难拆">丨</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=囧" title="有1人感觉“囧”难拆">囧</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=屌" title="有1人感觉“屌”难拆">屌</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=镕" title="有1人感觉“镕”难拆">镕</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=骉" title="有1人感觉“骉”难拆">骉</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=鮟" title="有1人感觉“鮟”难拆">鮟</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=鯵" title="有1人感觉“鯵”难拆">鯵</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=﨣" title="有1人感觉“﨣”难拆">﨣</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=䆌" title="有1人感觉“䆌”难拆">䆌</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=䌶" title="有1人感觉“䌶”难拆">䌶</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=䮎" title="有1人感觉“䮎”难拆">䮎</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=䮥" title="有1人感觉“䮥”难拆">䮥</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=䮶" title="有1人感觉“䮶”难拆">䮶</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=䯁" title="有1人感觉“䯁”难拆">䯁</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=上" title="有1人感觉“上”难拆">上</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=我" title="有1人感觉“我”难拆">我</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=成" title="有1人感觉“成”难拆">成</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=年" title="有1人感觉“年”难拆">年</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=下" title="有1人感觉“下”难拆">下</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=自" title="有1人感觉“自”难拆">自</a>&nbsp;<a href="http://www.chaiwubi.com/bmcx/?wz=由" title="有1人感觉“由”难拆">由</a>&nbsp;				</p>
+				<p>编码查询暂时不支持手机版。</p>
+							</div>
+			<div id="social">
+	<div class="social-main">
+		<span class="like">
+			<a href="javascript:;" data-action="ding" data-id="40" title="我赞" class="favorite">
+				喜欢
+				<i class="count">
+				788				</i>
+			</a>
+		</span>
+		<span class="comment-s">
+			<a href="http://www.chaiwubi.com/bmcx/#comments">评论 94 </a>		</span>
+		<div class="cf"></div>
+	</div>
+</div>						<div class="bdshare">
+				<div class="action-share bdsharebuttonbox">
+					<span>分享：</span>
+					<a rel="nofollow" class="bds_qzone" data-cmd="qzone"></a>
+					<a rel="nofollow" class="bds_tsina" data-cmd="tsina"></a>
+					<a rel="nofollow" class="bds_tieba" data-cmd="tieba"></a>
+					<a rel="nofollow" class="bds_weixin bdsm" data-cmd="weixin"></a>
+					<a rel="nofollow" class="bds_tqq" data-cmd="tqq"></a>
+					<a rel="nofollow" class="bds_sqq bdsm" data-cmd="sqq"></a>
+					<a rel="nofollow" class="bds_renren" data-cmd="renren"></a>
+					<a rel="nofollow" class="bds_douban" data-cmd="douban"></a>
+					<a rel="nofollow" class="bds_diandian" data-cmd="diandian"></a>
+					<a rel="nofollow" class="bds_youdao" data-cmd="youdao"></a>
+					<span class="bds_count" data-cmd="count"></span>
+				</div>
+			</div>
+					</div>
+				<div id="comments" class="comments-area">
+			<h2 class="comments-title">
+			编码查询：目前有 94 条留言		</h2>
+		<span id="cp_post_id" style="display:none;">40</span>
+		<div id="pagetext">
+			<ol class="comment-list">
+					<div id="anchor"><div id="comment-441"></div></div>
+	<li class="comment even thread-even depth-1" id="comment-441">
+			<div id="div-comment-441" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/b82b7a82b1d45312f6ca1825feb023ad?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/b82b7a82b1d45312f6ca1825feb023ad?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://。。。' rel='external nofollow' class='url'>开胃</a>：
+			<div class="floor">
+				沙发			</div>
+		</strong>
+	</div>
+	<p>86转091了</p>
+	<span class="datetime">
+		2018-07-22 16:24	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=441#respond' onclick='return addComment.moveForm( "div-comment-441", "441", "respond", "40" )' aria-label='回复给开胃'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-436"></div></div>
+	<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-436">
+			<div id="div-comment-436" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/b8ef68ec25311923593836ccb77c7ee9?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/b8ef68ec25311923593836ccb77c7ee9?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			?! 科研者：
+			<div class="floor">
+				板凳			</div>
+		</strong>
+	</div>
+	<p>86版用了很长时间之后，发现还有 98版 和 新世纪版，分别学习了 98 版 和新世纪版之后，最终决定改用 新世纪版；</p>
+	<span class="datetime">
+		2018-06-23 09:57	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=436#respond' onclick='return addComment.moveForm( "div-comment-436", "436", "respond", "40" )' aria-label='回复给?! 科研者'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-437"></div></div>
+	<li class="comment even depth-2" id="comment-437">
+			<div id="div-comment-437" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/183f871136a636b6d9a181b89998328c?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/183f871136a636b6d9a181b89998328c?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			黑瞎子丷：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>为什么，是因为更好理解吗？</p>
+	<span class="datetime">
+		2018-07-04 09:17	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=437#respond' onclick='return addComment.moveForm( "div-comment-437", "437", "respond", "40" )' aria-label='回复给黑瞎子丷'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-440"></div></div>
+	<li class="comment odd alt depth-2" id="comment-440">
+			<div id="div-comment-440" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/15944b538ac207c7a299d007216a823a?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/15944b538ac207c7a299d007216a823a?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			高空：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>我也是 <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_razz.gif" alt=":razz:" class="wp-smiley" />  <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_razz.gif" alt=":razz:" class="wp-smiley" /></p>
+	<span class="datetime">
+		2018-07-14 08:45	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=440#respond' onclick='return addComment.moveForm( "div-comment-440", "440", "respond", "40" )' aria-label='回复给高空'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-430"></div></div>
+	<li class="comment even thread-even depth-1 parent" id="comment-430">
+			<div id="div-comment-430" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/60b249bfa4de894f0d7d87d3cf9481ad?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/60b249bfa4de894f0d7d87d3cf9481ad?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			达达：
+			<div class="floor">
+				地板			</div>
+		</strong>
+	</div>
+	<p>你好，我是98版五笔爱好者，能给分享一下你的98版五笔词库吗，求五笔词库</p>
+	<span class="datetime">
+		2018-02-24 10:49	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=430#respond' onclick='return addComment.moveForm( "div-comment-430", "430", "respond", "40" )' aria-label='回复给达达'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-432"></div></div>
+	<li class="comment odd alt depth-2" id="comment-432">
+			<div id="div-comment-432" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/3b5565d7a1aeff69bede572cc89ce7d6?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/3b5565d7a1aeff69bede572cc89ce7d6?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			hhhhhh：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>这里有 <a href="http://98wb.ys168.com/" rel="nofollow">http://98wb.ys168.com/</a></p>
+	<span class="datetime">
+		2018-04-08 16:56	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=432#respond' onclick='return addComment.moveForm( "div-comment-432", "432", "respond", "40" )' aria-label='回复给hhhhhh'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-428"></div></div>
+	<li class="comment even thread-odd thread-alt depth-1" id="comment-428">
+			<div id="div-comment-428" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/d9ab6ed387ffd40a47a56982214f49fb?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/d9ab6ed387ffd40a47a56982214f49fb?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			仿佛昨日：
+			<div class="floor">
+				4楼			</div>
+		</strong>
+	</div>
+	<p>真的很简单</p>
+	<span class="datetime">
+		2018-02-22 09:06	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=428#respond' onclick='return addComment.moveForm( "div-comment-428", "428", "respond", "40" )' aria-label='回复给仿佛昨日'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-423"></div></div>
+	<li class="comment odd alt thread-even depth-1 parent" id="comment-423">
+			<div id="div-comment-423" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/e10b36f303b6bff5dd000fa6eff3e508?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/e10b36f303b6bff5dd000fa6eff3e508?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			火红火炬：
+			<div class="floor">
+				5楼			</div>
+		</strong>
+	</div>
+	<p>览总辛苦了 为广大学习五笔的童鞋提供很好的平台，网站运营那么久了，感谢览总</p>
+	<span class="datetime">
+		2017-12-12 20:20	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=423#respond' onclick='return addComment.moveForm( "div-comment-423", "423", "respond", "40" )' aria-label='回复给火红火炬'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-431"></div></div>
+	<li class="comment even depth-2" id="comment-431">
+			<div id="div-comment-431" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/00b9797c75a94f1f52962098b32b6806?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/00b9797c75a94f1f52962098b32b6806?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			巴扎黑：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>默默地为站长达达伤心两分钟</p>
+	<span class="datetime">
+		2018-03-12 16:17	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=431#respond' onclick='return addComment.moveForm( "div-comment-431", "431", "respond", "40" )' aria-label='回复给巴扎黑'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-422"></div></div>
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-422">
+			<div id="div-comment-422" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/e10b36f303b6bff5dd000fa6eff3e508?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/e10b36f303b6bff5dd000fa6eff3e508?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			火红火炬：
+			<div class="floor">
+				6楼			</div>
+		</strong>
+	</div>
+	<p>感谢览总，览总666!! <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_razz.gif" alt=":razz:" class="wp-smiley" />  <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_biggrin.gif" alt=":grin:" class="wp-smiley" />  <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_redface.gif" alt=":oops:" class="wp-smiley" />  <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_surprised.gif" alt=":eek:" class="wp-smiley" /></p>
+	<span class="datetime">
+		2017-12-12 20:18	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=422#respond' onclick='return addComment.moveForm( "div-comment-422", "422", "respond", "40" )' aria-label='回复给火红火炬'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-420"></div></div>
+	<li class="comment even thread-even depth-1" id="comment-420">
+			<div id="div-comment-420" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/0fd7f143bc9bc2907c6301e7e4ffbc28?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/0fd7f143bc9bc2907c6301e7e4ffbc28?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			samco：
+			<div class="floor">
+				7楼			</div>
+		</strong>
+	</div>
+	<p>这里的98版是什么时候的版本,为什么我电脑用的精灵98和我手机用的百度98的编码和这里的98编码差别大的,很多编码对不上,因为是从86版五笔过渡到98版,发现86版的五笔编码是对得上的,是不是系统出错导致的错误</p>
+	<span class="datetime">
+		2017-11-23 17:55	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=420#respond' onclick='return addComment.moveForm( "div-comment-420", "420", "respond", "40" )' aria-label='回复给samco'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-412"></div></div>
+	<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-412">
+			<div id="div-comment-412" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/7997ee972a437458df4c92f37f956f62?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/7997ee972a437458df4c92f37f956f62?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			吉利E佰：
+			<div class="floor">
+				8楼			</div>
+		</strong>
+	</div>
+	<p>请问：手写输入怎样用不了呢？</p>
+	<span class="datetime">
+		2017-09-26 12:37	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=412#respond' onclick='return addComment.moveForm( "div-comment-412", "412", "respond", "40" )' aria-label='回复给吉利E佰'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-415"></div></div>
+	<li class="comment byuser comment-author-wanghaida bypostauthor even depth-2 parent" id="comment-415">
+			<div id="div-comment-415" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://www.chaiwubi.com/' rel='external nofollow' class='url'>拆五笔</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>可能浏览器兼容不好</p>
+	<span class="datetime">
+		2017-10-26 10:25	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=415#respond' onclick='return addComment.moveForm( "div-comment-415", "415", "respond", "40" )' aria-label='回复给拆五笔'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-425"></div></div>
+	<li class="comment odd alt depth-3" id="comment-425">
+			<div id="div-comment-425" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/e698ba10031e13ce8e80d79510cddcca?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/e698ba10031e13ce8e80d79510cddcca?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			萌萌哒小虾米：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>䬤 怎么打不出来……</p>
+	<span class="datetime">
+		2018-02-06 21:27	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=425#respond' onclick='return addComment.moveForm( "div-comment-425", "425", "respond", "40" )' aria-label='回复给萌萌哒小虾米'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-410"></div></div>
+	<li class="comment even thread-even depth-1" id="comment-410">
+			<div id="div-comment-410" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/f750adeb3933dac2efadd1662560615d?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/f750adeb3933dac2efadd1662560615d?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			方知：
+			<div class="floor">
+				9楼			</div>
+		</strong>
+	</div>
+	<p>太好用了 拆分得很详细 给一百个赞</p>
+	<span class="datetime">
+		2017-09-09 00:06	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=410#respond' onclick='return addComment.moveForm( "div-comment-410", "410", "respond", "40" )' aria-label='回复给方知'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-405"></div></div>
+	<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-405">
+			<div id="div-comment-405" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/487f87505f619bf9ea08f26bb34f8118?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/487f87505f619bf9ea08f26bb34f8118?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			哈哈：
+			<div class="floor">
+				10楼			</div>
+		</strong>
+	</div>
+	<p><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_razz.gif" alt=":razz:" class="wp-smiley" />  <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_razz.gif" alt=":razz:" class="wp-smiley" />  <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_razz.gif" alt=":razz:" class="wp-smiley" /> 感谢拆五笔，用了快两年，第一次评论。</p>
+	<span class="datetime">
+		2017-08-12 17:38	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=405#respond' onclick='return addComment.moveForm( "div-comment-405", "405", "respond", "40" )' aria-label='回复给哈哈'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-408"></div></div>
+	<li class="comment even depth-2 parent" id="comment-408">
+			<div id="div-comment-408" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/4c65a7d7847ed2fb45e0826d517dbf6d?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/4c65a7d7847ed2fb45e0826d517dbf6d?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			李白：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>第一次，真的太棒了。</p>
+	<span class="datetime">
+		2017-09-02 20:58	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=408#respond' onclick='return addComment.moveForm( "div-comment-408", "408", "respond", "40" )' aria-label='回复给李白'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-413"></div></div>
+	<li class="comment odd alt depth-3" id="comment-413">
+			<div id="div-comment-413" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/8386c7e71a2147c4b722e9680da360f6?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/8386c7e71a2147c4b722e9680da360f6?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			我的天：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>和女友？</p>
+	<span class="datetime">
+		2017-10-10 13:15	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=413#respond' onclick='return addComment.moveForm( "div-comment-413", "413", "respond", "40" )' aria-label='回复给我的天'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-394"></div></div>
+	<li class="comment even thread-even depth-1" id="comment-394">
+			<div id="div-comment-394" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/dcfe8fdc58e49123c1e9a25cf8298d66?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/dcfe8fdc58e49123c1e9a25cf8298d66?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			洛伊文：
+			<div class="floor">
+				11楼			</div>
+		</strong>
+	</div>
+	<p>个人中心怎么关闭了</p>
+	<span class="datetime">
+		2017-05-12 11:01	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=394#respond' onclick='return addComment.moveForm( "div-comment-394", "394", "respond", "40" )' aria-label='回复给洛伊文'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-370"></div></div>
+	<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-370">
+			<div id="div-comment-370" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/c97bcb80de06107f0a93ecffae24be12?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/c97bcb80de06107f0a93ecffae24be12?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			库仔：
+			<div class="floor">
+				12楼			</div>
+		</strong>
+	</div>
+	<p>追加一个问题，大家都是从86开始的吗？还是可以从06或者98开始啊？</p>
+	<span class="datetime">
+		2017-02-27 11:14	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=370#respond' onclick='return addComment.moveForm( "div-comment-370", "370", "respond", "40" )' aria-label='回复给库仔'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-374"></div></div>
+	<li class="comment even depth-2" id="comment-374">
+			<div id="div-comment-374" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/c33682d816ee9d1cec6115e58c081e57?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/c33682d816ee9d1cec6115e58c081e57?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			帅哥：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>86哈</p>
+	<span class="datetime">
+		2017-03-12 17:10	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=374#respond' onclick='return addComment.moveForm( "div-comment-374", "374", "respond", "40" )' aria-label='回复给帅哥'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-378"></div></div>
+	<li class="comment odd alt depth-2" id="comment-378">
+			<div id="div-comment-378" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/3091c6f2c802d9c0899bea0b26caf265?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/3091c6f2c802d9c0899bea0b26caf265?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			磊：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>从98转86的</p>
+	<span class="datetime">
+		2017-03-25 15:13	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=378#respond' onclick='return addComment.moveForm( "div-comment-378", "378", "respond", "40" )' aria-label='回复给磊'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-391"></div></div>
+	<li class="comment even depth-2" id="comment-391">
+			<div id="div-comment-391" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/86028b9a2f3754f6ec9c568f98ec0cf1?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/86028b9a2f3754f6ec9c568f98ec0cf1?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			小人物：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>一直在用86，不打算用别的版本</p>
+	<span class="datetime">
+		2017-05-06 20:48	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=391#respond' onclick='return addComment.moveForm( "div-comment-391", "391", "respond", "40" )' aria-label='回复给小人物'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-396"></div></div>
+	<li class="comment odd alt depth-2" id="comment-396">
+			<div id="div-comment-396" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/c104abf808ba00e31a3023fb0252cd7e?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/c104abf808ba00e31a3023fb0252cd7e?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			唐帅哥：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>86~~~经典！！！</p>
+	<span class="datetime">
+		2017-05-14 00:17	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=396#respond' onclick='return addComment.moveForm( "div-comment-396", "396", "respond", "40" )' aria-label='回复给唐帅哥'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-404"></div></div>
+	<li class="comment even depth-2" id="comment-404">
+			<div id="div-comment-404" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/ae5b34aa88fa130e73211ddd95fd6bfb?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/ae5b34aa88fa130e73211ddd95fd6bfb?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			mnts：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>从86开始转98 →_→</p>
+	<span class="datetime">
+		2017-08-05 02:06	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=404#respond' onclick='return addComment.moveForm( "div-comment-404", "404", "respond", "40" )' aria-label='回复给mnts'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-407"></div></div>
+	<li class="comment odd alt depth-2" id="comment-407">
+			<div id="div-comment-407" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/e8e207bdaefd9fbfd2376229c5dc4375?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/e8e207bdaefd9fbfd2376229c5dc4375?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			絳橙：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>98，简单 <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_razz.gif" alt=":razz:" class="wp-smiley" /></p>
+	<span class="datetime">
+		2017-08-24 09:34	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=407#respond' onclick='return addComment.moveForm( "div-comment-407", "407", "respond", "40" )' aria-label='回复给絳橙'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-369"></div></div>
+	<li class="comment even thread-even depth-1 parent" id="comment-369">
+			<div id="div-comment-369" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/c97bcb80de06107f0a93ecffae24be12?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/c97bcb80de06107f0a93ecffae24be12?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			库仔：
+			<div class="floor">
+				13楼			</div>
+		</strong>
+	</div>
+	<p>拽 TJXT 还是想不通，是匕吗？</p>
+	<span class="datetime">
+		2017-02-27 10:55	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=369#respond' onclick='return addComment.moveForm( "div-comment-369", "369", "respond", "40" )' aria-label='回复给库仔'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-416"></div></div>
+	<li class="comment odd alt depth-2" id="comment-416">
+			<div id="div-comment-416" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/f7af1de9e4c64190b567485500c44230?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/f7af1de9e4c64190b567485500c44230?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			子弹：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>不是哦，是乂，反犬旁(犭），只不过是倒立的，这就是个人的记忆方法了。所以是Q</p>
+	<span class="datetime">
+		2017-11-07 22:48	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=416#respond' onclick='return addComment.moveForm( "div-comment-416", "416", "respond", "40" )' aria-label='回复给子弹'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-361"></div></div>
+	<li class="comment even thread-odd thread-alt depth-1" id="comment-361">
+			<div id="div-comment-361" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/c33682d816ee9d1cec6115e58c081e57?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/c33682d816ee9d1cec6115e58c081e57?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			帅哥：
+			<div class="floor">
+				14楼			</div>
+		</strong>
+	</div>
+	<p><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_exclaim.gif" alt=":!:" class="wp-smiley" />  <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_redface.gif" alt=":oops:" class="wp-smiley" />  <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_redface.gif" alt=":oops:" class="wp-smiley" />  <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_surprised.gif" alt=":eek:" class="wp-smiley" /> 好好好好好好好好vbv</p>
+	<span class="datetime">
+		2016-12-24 20:00	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=361#respond' onclick='return addComment.moveForm( "div-comment-361", "361", "respond", "40" )' aria-label='回复给帅哥'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-356"></div></div>
+	<li class="comment odd alt thread-even depth-1 parent" id="comment-356">
+			<div id="div-comment-356" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/639e89c59f8fd4efbd65d3804027477e?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/639e89c59f8fd4efbd65d3804027477e?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			建议：
+			<div class="floor">
+				15楼			</div>
+		</strong>
+	</div>
+	<p>增加一个功能：收藏查询过的字，这样便于有时间的时候可以浏览回顾</p>
+	<span class="datetime">
+		2016-11-30 12:43	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=356#respond' onclick='return addComment.moveForm( "div-comment-356", "356", "respond", "40" )' aria-label='回复给建议'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-358"></div></div>
+	<li class="comment byuser comment-author-wanghaida bypostauthor even depth-2" id="comment-358">
+			<div id="div-comment-358" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://www.chaiwubi.com/' rel='external nofollow' class='url'>拆五笔</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>面包会有的，等用户中心上线之后会增加这个功能</p>
+	<span class="datetime">
+		2016-12-01 22:36	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=358#respond' onclick='return addComment.moveForm( "div-comment-358", "358", "respond", "40" )' aria-label='回复给拆五笔'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-350"></div></div>
+	<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-350">
+			<div id="div-comment-350" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/c0634da9c25fae492ccec9a367bf8ab8?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/c0634da9c25fae492ccec9a367bf8ab8?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			msn：
+			<div class="floor">
+				16楼			</div>
+		</strong>
+	</div>
+	<p>86五笔中，匀和羽竟然打法不一样，中间不都是两点水啊。</p>
+	<span class="datetime">
+		2016-10-31 14:53	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=350#respond' onclick='return addComment.moveForm( "div-comment-350", "350", "respond", "40" )' aria-label='回复给msn'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-366"></div></div>
+	<li class="comment even depth-2" id="comment-366">
+			<div id="div-comment-366" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/0774778ae3134f80a20603cd8ab0b95b?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/0774778ae3134f80a20603cd8ab0b95b?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			龙碧云：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>因为羽是字根，所以得按字根规则打，先报户口，然后拆成笔划</p>
+	<span class="datetime">
+		2017-02-10 10:58	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=366#respond' onclick='return addComment.moveForm( "div-comment-366", "366", "respond", "40" )' aria-label='回复给龙碧云'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-347"></div></div>
+	<li class="comment odd alt thread-even depth-1 parent" id="comment-347">
+			<div id="div-comment-347" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/2e6f0d90caddecd0252abbe184f5561c?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/2e6f0d90caddecd0252abbe184f5561c?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			搬砖：
+			<div class="floor">
+				17楼			</div>
+		</strong>
+	</div>
+	<p>藏字的拆字方法怎么也感觉不对吧</p>
+	<span class="datetime">
+		2016-10-20 11:20	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=347#respond' onclick='return addComment.moveForm( "div-comment-347", "347", "respond", "40" )' aria-label='回复给搬砖'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-355"></div></div>
+	<li class="comment even depth-2" id="comment-355">
+			<div id="div-comment-355" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/424964bc7751c10ab3d14a5674dfc385?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/424964bc7751c10ab3d14a5674dfc385?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			王永民：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>戈，成   都一样。</p>
+	<span class="datetime">
+		2016-11-22 16:06	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=355#respond' onclick='return addComment.moveForm( "div-comment-355", "355", "respond", "40" )' aria-label='回复给王永民'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-426"></div></div>
+	<li class="comment odd alt depth-2" id="comment-426">
+			<div id="div-comment-426" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/e8e207bdaefd9fbfd2376229c5dc4375?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/e8e207bdaefd9fbfd2376229c5dc4375?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			絳橙：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>86中“戈”全部都强制规定了最后一笔为撇<br />
+98里是考虑了字源，藏：人（臣）拿着兵器（戈）躲在一定范围（爿pan2）和草丛（艹）之内</p>
+	<span class="datetime">
+		2018-02-11 20:42	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=426#respond' onclick='return addComment.moveForm( "div-comment-426", "426", "respond", "40" )' aria-label='回复给絳橙'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-332"></div></div>
+	<li class="comment even thread-odd thread-alt depth-1" id="comment-332">
+			<div id="div-comment-332" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/bd6ad097adefa80e419dd07f2248b024?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/bd6ad097adefa80e419dd07f2248b024?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			冷夜：
+			<div class="floor">
+				18楼			</div>
+		</strong>
+	</div>
+	<p><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_razz.gif" alt=":razz:" class="wp-smiley" /> 希望越做越好呢。</p>
+	<span class="datetime">
+		2016-07-12 15:37	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=332#respond' onclick='return addComment.moveForm( "div-comment-332", "332", "respond", "40" )' aria-label='回复给冷夜'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-330"></div></div>
+	<li class="comment odd alt thread-even depth-1" id="comment-330">
+			<div id="div-comment-330" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/487f87505f619bf9ea08f26bb34f8118?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/487f87505f619bf9ea08f26bb34f8118?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			123：
+			<div class="floor">
+				19楼			</div>
+		</strong>
+	</div>
+	<p>不错。很多返查网站只有86版的查询，这里什么版本都可以查，太好了</p>
+	<span class="datetime">
+		2016-07-09 15:53	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=330#respond' onclick='return addComment.moveForm( "div-comment-330", "330", "respond", "40" )' aria-label='回复给123'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-326"></div></div>
+	<li class="comment even thread-odd thread-alt depth-1 parent" id="comment-326">
+			<div id="div-comment-326" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/f0ad5e4c41c0e576b49a7acc8590040c?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/f0ad5e4c41c0e576b49a7acc8590040c?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			喇叭：
+			<div class="floor">
+				20楼			</div>
+		</strong>
+	</div>
+	<p>眾字的五筆是LWWY,這是不是王碼五筆弄錯了？無論內地還是港澳臺都是”四亻人人“的寫法，為什么只有98版才是LWWW？</p>
+	<span class="datetime">
+		2016-06-10 13:24	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=326#respond' onclick='return addComment.moveForm( "div-comment-326", "326", "respond", "40" )' aria-label='回复给喇叭'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-333"></div></div>
+	<li class="comment odd alt depth-2 parent" id="comment-333">
+			<div id="div-comment-333" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/317391dcf06e2f3f30f2eea26114624a?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/317391dcf06e2f3f30f2eea26114624a?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			林古儿：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>这个不错啊。 皿字下面是  丿丨   ，却‘亻’单价旁，然后是两个人字。<br />
+这个写你用宋体字放大来看。</p>
+	<span class="datetime">
+		2016-07-16 17:33	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=333#respond' onclick='return addComment.moveForm( "div-comment-333", "333", "respond", "40" )' aria-label='回复给林古儿'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-353"></div></div>
+	<li class="comment even depth-3 parent" id="comment-353">
+			<div id="div-comment-353" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/6ff4ea9a7311bf433e05198320618a3f?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/6ff4ea9a7311bf433e05198320618a3f?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			喇叭：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>06版五笔不是两个人，后面的人被拆分了，只有一捺。宋体显示的是两个人，故编码是LWWW，而不是LWWY。</p>
+	<span class="datetime">
+		2016-11-16 08:59	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=353#respond' onclick='return addComment.moveForm( "div-comment-353", "353", "respond", "40" )' aria-label='回复给喇叭'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-438"></div></div>
+	<li class="comment odd alt depth-4" id="comment-438">
+			<div id="div-comment-438" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/9a03de16d27b90eaae3ed5f59014e0af?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/9a03de16d27b90eaae3ed5f59014e0af?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			琉璃瞳：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>最后那个不是拆开的意思，那个是，末笔丶，上下结构的意思</p>
+	<span class="datetime">
+		2018-07-06 17:09	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=438#respond' onclick='return addComment.moveForm( "div-comment-438", "438", "respond", "40" )' aria-label='回复给琉璃瞳'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-323"></div></div>
+	<li class="comment even thread-even depth-1" id="comment-323">
+			<div id="div-comment-323" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/5c3e7eb2008ae8afc74d241a5468d255?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/5c3e7eb2008ae8afc74d241a5468d255?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			哈哈哈：
+			<div class="floor">
+				21楼			</div>
+		</strong>
+	</div>
+	<p><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_exclaim.gif" alt=":!:" class="wp-smiley" />  <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_smile.gif" alt=":smile:" class="wp-smiley" />  <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_redface.gif" alt=":oops:" class="wp-smiley" />  <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_surprised.gif" alt=":eek:" class="wp-smiley" /> 嘿嘿</p>
+	<span class="datetime">
+		2016-05-26 21:53	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=323#respond' onclick='return addComment.moveForm( "div-comment-323", "323", "respond", "40" )' aria-label='回复给哈哈哈'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-317"></div></div>
+	<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-317">
+			<div id="div-comment-317" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/176ae0b570fb6288668754b9692cb8c6?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/176ae0b570fb6288668754b9692cb8c6?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			俊：
+			<div class="floor">
+				22楼			</div>
+		</strong>
+	</div>
+	<p>学习五笔不用愁，小拆反查解忧愁。方块图腾不是梦，众览群山此为峰～小拆五笔，一路有你～真心好～</p>
+	<span class="datetime">
+		2016-05-09 18:41	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=317#respond' onclick='return addComment.moveForm( "div-comment-317", "317", "respond", "40" )' aria-label='回复给俊'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-319"></div></div>
+	<li class="comment even depth-2" id="comment-319">
+			<div id="div-comment-319" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/af97c0c814b85b56de6dc4ef7d600454?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/af97c0c814b85b56de6dc4ef7d600454?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			灵蝉子：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>我原来五笔打不出来去王码的网页查，但那里要输入验证码，太麻烦。<br />
+到这里查方便快捷。 <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_redface.gif" alt=":oops:" class="wp-smiley" /></p>
+	<span class="datetime">
+		2016-05-09 20:44	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=319#respond' onclick='return addComment.moveForm( "div-comment-319", "319", "respond", "40" )' aria-label='回复给灵蝉子'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-307"></div></div>
+	<li class="comment odd alt thread-even depth-1 parent" id="comment-307">
+			<div id="div-comment-307" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/b3ca234597f4c97eba3e7b299071e871?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/b3ca234597f4c97eba3e7b299071e871?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			调和液：
+			<div class="floor">
+				23楼			</div>
+		</strong>
+	</div>
+	<p>98版为什么“士”的编码是“FGHL”怎么拆的呢？？</p>
+	<span class="datetime">
+		2016-04-28 23:34	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=307#respond' onclick='return addComment.moveForm( "div-comment-307", "307", "respond", "40" )' aria-label='回复给调和液'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-308"></div></div>
+	<li class="comment byuser comment-author-wanghaida bypostauthor even depth-2 parent" id="comment-308">
+			<div id="div-comment-308" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://www.chaiwubi.com/' rel='external nofollow' class='url'>拆五笔</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>字根字，F是“士”，G是“一”，H是“｜”，L我也不知道[哈哈]</p>
+	<span class="datetime">
+		2016-04-29 15:51	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=308#respond' onclick='return addComment.moveForm( "div-comment-308", "308", "respond", "40" )' aria-label='回复给拆五笔'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-309"></div></div>
+	<li class="comment odd alt depth-3 parent" id="comment-309">
+			<div id="div-comment-309" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/3d742ebd4f2916d88287f2d469b204e5?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/3d742ebd4f2916d88287f2d469b204e5?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://www.wubiba.com' rel='external nofollow' class='url'>五笔吧</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_rolleyes.gif" alt=":roll:" class="wp-smiley" /> 赞赞</p>
+	<span class="datetime">
+		2016-05-01 01:59	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=309#respond' onclick='return addComment.moveForm( "div-comment-309", "309", "respond", "40" )' aria-label='回复给五笔吧'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-311"></div></div>
+	<li class="comment even depth-4 parent" id="comment-311">
+			<div id="div-comment-311" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/b3ca234597f4c97eba3e7b299071e871?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/b3ca234597f4c97eba3e7b299071e871?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			调和液：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>追加一个，“伪”字也是这样的，以L结尾的。<br />
+98版是WYEL，是不是有什么特殊规则啊？</p>
+	<span class="datetime">
+		2016-05-06 23:45	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=311#respond' onclick='return addComment.moveForm( "div-comment-311", "311", "respond", "40" )' aria-label='回复给调和液'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-349"></div></div>
+	<li class="comment odd alt depth-5" id="comment-349">
+			<div id="div-comment-349" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/5da16c5ffa7a0d12ed0a090c9845405a?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/5da16c5ffa7a0d12ed0a090c9845405a?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			一页情丶：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>没有那一个是全码是亻丶力丶L是力</p>
+	<span class="datetime">
+		2016-10-26 19:00	</span>
+	<span class="reply">
+			</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-365"></div></div>
+	<li class="comment even depth-2" id="comment-365">
+			<div id="div-comment-365" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/0774778ae3134f80a20603cd8ab0b95b?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/0774778ae3134f80a20603cd8ab0b95b?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			龙碧云：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>点更多看大一统98版	FGHG，我用的98五笔都是FGHG</p>
+	<span class="datetime">
+		2017-02-09 14:21	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=365#respond' onclick='return addComment.moveForm( "div-comment-365", "365", "respond", "40" )' aria-label='回复给龙碧云'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-298"></div></div>
+	<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-298">
+			<div id="div-comment-298" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/af97c0c814b85b56de6dc4ef7d600454?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/af97c0c814b85b56de6dc4ef7d600454?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			灵蝉子：
+			<div class="floor">
+				24楼			</div>
+		</strong>
+	</div>
+	<p>为什么“象”字的卧“日”98版安排在K键而不是在J键？而“临”字的卧日又放在J键。 <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_surprised.gif" alt=":eek:" class="wp-smiley" /></p>
+	<span class="datetime">
+		2016-04-18 23:19	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=298#respond' onclick='return addComment.moveForm( "div-comment-298", "298", "respond", "40" )' aria-label='回复给灵蝉子'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-312"></div></div>
+	<li class="comment even depth-2" id="comment-312">
+			<div id="div-comment-312" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/1c9745bf68c7303eef7cc70eedbab357?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/1c9745bf68c7303eef7cc70eedbab357?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			浅瞳：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>是在J键上的呀。86版的。</p>
+	<span class="datetime">
+		2016-05-09 14:00	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=312#respond' onclick='return addComment.moveForm( "div-comment-312", "312", "respond", "40" )' aria-label='回复给浅瞳'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-325"></div></div>
+	<li class="comment odd alt depth-2 parent" id="comment-325">
+			<div id="div-comment-325" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/f0ad5e4c41c0e576b49a7acc8590040c?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/f0ad5e4c41c0e576b49a7acc8590040c?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			喇叭：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>象字原来中间是一个睡觉的日，大陆简化后中间是一个口，就像免字一样，但象字86五笔用的是繁体的象了，后来改为简体了就是口了。</p>
+	<span class="datetime">
+		2016-06-10 12:54	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=325#respond' onclick='return addComment.moveForm( "div-comment-325", "325", "respond", "40" )' aria-label='回复给喇叭'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-335"></div></div>
+	<li class="comment even depth-3" id="comment-335">
+			<div id="div-comment-335" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/af97c0c814b85b56de6dc4ef7d600454?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/af97c0c814b85b56de6dc4ef7d600454?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			灵蝉子：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>啊，原来如此，谢谢你的指导！ <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_biggrin.gif" alt=":grin:" class="wp-smiley" /></p>
+	<span class="datetime">
+		2016-07-27 11:32	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=335#respond' onclick='return addComment.moveForm( "div-comment-335", "335", "respond", "40" )' aria-label='回复给灵蝉子'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-295"></div></div>
+	<li class="comment odd alt thread-even depth-1" id="comment-295">
+			<div id="div-comment-295" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/616a64c4eedda79952314780ae83cd3e?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/616a64c4eedda79952314780ae83cd3e?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			三一：
+			<div class="floor">
+				25楼			</div>
+		</strong>
+	</div>
+	<p>贷字错了吧  98的</p>
+	<span class="datetime">
+		2016-04-11 10:02	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=295#respond' onclick='return addComment.moveForm( "div-comment-295", "295", "respond", "40" )' aria-label='回复给三一'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-294"></div></div>
+	<li class="comment even thread-odd thread-alt depth-1 parent" id="comment-294">
+			<div id="div-comment-294" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/5c3e7eb2008ae8afc74d241a5468d255?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/5c3e7eb2008ae8afc74d241a5468d255?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			哈哈哈：
+			<div class="floor">
+				26楼			</div>
+		</strong>
+	</div>
+	<p><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_cool.gif" alt=":cool:" class="wp-smiley" />  <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_cool.gif" alt=":cool:" class="wp-smiley" />  <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_cool.gif" alt=":cool:" class="wp-smiley" />  <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_cool.gif" alt=":cool:" class="wp-smiley" />  <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_cool.gif" alt=":cool:" class="wp-smiley" /> 啊</p>
+	<span class="datetime">
+		2016-04-07 23:05	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=294#respond' onclick='return addComment.moveForm( "div-comment-294", "294", "respond", "40" )' aria-label='回复给哈哈哈'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-372"></div></div>
+	<li class="comment odd alt depth-2" id="comment-372">
+			<div id="div-comment-372" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/9b1640c09b6ea340bed9d7620520869c?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/9b1640c09b6ea340bed9d7620520869c?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			7788787878：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>阿斯顿了</p>
+	<span class="datetime">
+		2017-03-08 11:35	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=372#respond' onclick='return addComment.moveForm( "div-comment-372", "372", "respond", "40" )' aria-label='回复给7788787878'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-290"></div></div>
+	<li class="comment even thread-even depth-1" id="comment-290">
+			<div id="div-comment-290" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/0abb9d5127eee67287714dc08cb60159?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/0abb9d5127eee67287714dc08cb60159?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://www.wbsrf.com' rel='external nofollow' class='url'>不错</a>：
+			<div class="floor">
+				27楼			</div>
+		</strong>
+	</div>
+	<p>网站做得不错！</p>
+	<span class="datetime">
+		2016-03-30 00:50	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=290#respond' onclick='return addComment.moveForm( "div-comment-290", "290", "respond", "40" )' aria-label='回复给不错'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-289"></div></div>
+	<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-289">
+			<div id="div-comment-289" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/af97c0c814b85b56de6dc4ef7d600454?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/af97c0c814b85b56de6dc4ef7d600454?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			灵蝉子：
+			<div class="floor">
+				28楼			</div>
+		</strong>
+	</div>
+	<p>“朱”字98版编码是TFI，<br />
+网页写成RII了。</p>
+	<span class="datetime">
+		2016-03-29 23:56	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=289#respond' onclick='return addComment.moveForm( "div-comment-289", "289", "respond", "40" )' aria-label='回复给灵蝉子'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-291"></div></div>
+	<li class="comment byuser comment-author-wanghaida bypostauthor even depth-2 parent" id="comment-291">
+			<div id="div-comment-291" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://www.chaiwubi.com/' rel='external nofollow' class='url'>拆五笔</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>感谢反馈，不过你是不是用的大一统的输入法呢？大一统输入法相对于老版的86、98有修改，查询结果右下角有个“更多”，点击可以看到大一统的98编码，是TFI <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_biggrin.gif" alt=":grin:" class="wp-smiley" /></p>
+	<span class="datetime">
+		2016-03-30 10:21	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=291#respond' onclick='return addComment.moveForm( "div-comment-291", "291", "respond", "40" )' aria-label='回复给拆五笔'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-292"></div></div>
+	<li class="comment odd alt depth-3" id="comment-292">
+			<div id="div-comment-292" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/af97c0c814b85b56de6dc4ef7d600454?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/af97c0c814b85b56de6dc4ef7d600454?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			灵蝉子：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>是，刚才查了，大统一才TFI，谢谢！ <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_biggrin.gif" alt=":grin:" class="wp-smiley" /></p>
+	<span class="datetime">
+		2016-03-30 17:47	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=292#respond' onclick='return addComment.moveForm( "div-comment-292", "292", "respond", "40" )' aria-label='回复给灵蝉子'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-287"></div></div>
+	<li class="comment even thread-even depth-1 parent" id="comment-287">
+			<div id="div-comment-287" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/7a8d8b3b13ad08eb53a43736b7387175?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/7a8d8b3b13ad08eb53a43736b7387175?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			刚学：
+			<div class="floor">
+				29楼			</div>
+		</strong>
+	</div>
+	<p>简直是救星</p>
+	<span class="datetime">
+		2016-02-29 11:47	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=287#respond' onclick='return addComment.moveForm( "div-comment-287", "287", "respond", "40" )' aria-label='回复给刚学'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-288"></div></div>
+	<li class="comment byuser comment-author-wanghaida bypostauthor odd alt depth-2" id="comment-288">
+			<div id="div-comment-288" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://www.chaiwubi.com/' rel='external nofollow' class='url'>拆五笔</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>哈哈 <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_redface.gif" alt=":oops:" class="wp-smiley" />  <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_redface.gif" alt=":oops:" class="wp-smiley" /></p>
+	<span class="datetime">
+		2016-03-17 10:29	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=288#respond' onclick='return addComment.moveForm( "div-comment-288", "288", "respond", "40" )' aria-label='回复给拆五笔'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-267"></div></div>
+	<li class="comment even thread-odd thread-alt depth-1" id="comment-267">
+			<div id="div-comment-267" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/639e89c59f8fd4efbd65d3804027477e?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/639e89c59f8fd4efbd65d3804027477e?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			错误：
+			<div class="floor">
+				30楼			</div>
+		</strong>
+	</div>
+	<p>瓶的图解是不是错了</p>
+	<span class="datetime">
+		2015-12-03 22:27	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=267#respond' onclick='return addComment.moveForm( "div-comment-267", "267", "respond", "40" )' aria-label='回复给错误'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-259"></div></div>
+	<li class="comment odd alt thread-even depth-1" id="comment-259">
+			<div id="div-comment-259" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/617b8e98815070d0c62b7308067bf252?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/617b8e98815070d0c62b7308067bf252?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			呵呵：
+			<div class="floor">
+				31楼			</div>
+		</strong>
+	</div>
+	<p>啊字，哪位大哥给我解释一下吧，</p>
+	<span class="datetime">
+		2015-11-16 08:49	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=259#respond' onclick='return addComment.moveForm( "div-comment-259", "259", "respond", "40" )' aria-label='回复给呵呵'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-252"></div></div>
+	<li class="comment even thread-odd thread-alt depth-1 parent" id="comment-252">
+			<div id="div-comment-252" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/2c701336c95fa141ba8fe89bbcefea44?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/2c701336c95fa141ba8fe89bbcefea44?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://www.fulibbs.com' rel='external nofollow' class='url'>福利社区</a>：
+			<div class="floor">
+				32楼			</div>
+		</strong>
+	</div>
+	<p>我来看看你的网站做的咋样 <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_rolleyes.gif" alt=":roll:" class="wp-smiley" /></p>
+	<span class="datetime">
+		2015-11-05 22:27	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=252#respond' onclick='return addComment.moveForm( "div-comment-252", "252", "respond", "40" )' aria-label='回复给福利社区'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-254"></div></div>
+	<li class="comment byuser comment-author-wanghaida bypostauthor odd alt depth-2 parent" id="comment-254">
+			<div id="div-comment-254" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://www.chaiwubi.com/' rel='external nofollow' class='url'>拆五笔</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>感觉如何？ <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_exclaim.gif" alt=":!:" class="wp-smiley" /></p>
+	<span class="datetime">
+		2015-11-06 10:06	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=254#respond' onclick='return addComment.moveForm( "div-comment-254", "254", "respond", "40" )' aria-label='回复给拆五笔'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-255"></div></div>
+	<li class="comment even depth-3" id="comment-255">
+			<div id="div-comment-255" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/2c701336c95fa141ba8fe89bbcefea44?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/2c701336c95fa141ba8fe89bbcefea44?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://www.fulibbs.com' rel='external nofollow' class='url'>福利社区</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>还行，和原来差不多，功能增加了一些</p>
+	<span class="datetime">
+		2015-11-06 10:07	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=255#respond' onclick='return addComment.moveForm( "div-comment-255", "255", "respond", "40" )' aria-label='回复给福利社区'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-248"></div></div>
+	<li class="comment odd alt thread-even depth-1 parent" id="comment-248">
+			<div id="div-comment-248" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/610046436ef57ada8588948f2131686b?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/610046436ef57ada8588948f2131686b?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://www.chaiwubi.com/bmcx/#comments' rel='external nofollow' class='url'>哇哈哈哈哈</a>：
+			<div class="floor">
+				33楼			</div>
+		</strong>
+	</div>
+	<p><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_mrgreen.gif" alt=":mrgreen:" class="wp-smiley" /> 不错不错，达达就是6.。。</p>
+	<span class="datetime">
+		2015-11-03 18:06	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=248#respond' onclick='return addComment.moveForm( "div-comment-248", "248", "respond", "40" )' aria-label='回复给哇哈哈哈哈'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-250"></div></div>
+	<li class="comment byuser comment-author-wanghaida bypostauthor even depth-2" id="comment-250">
+			<div id="div-comment-250" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://www.chaiwubi.com/' rel='external nofollow' class='url'>拆五笔</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_exclaim.gif" alt=":!:" class="wp-smiley" /> 233 哈哈</p>
+	<span class="datetime">
+		2015-11-04 11:02	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=250#respond' onclick='return addComment.moveForm( "div-comment-250", "250", "respond", "40" )' aria-label='回复给拆五笔'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-242"></div></div>
+	<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-242">
+			<div id="div-comment-242" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/e71b81ec7505046c86b951243bdd9778?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/e71b81ec7505046c86b951243bdd9778?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			获取输入焦点：
+			<div class="floor">
+				34楼			</div>
+		</strong>
+	</div>
+	<p>真方便，这个完全是为了用户快速着想。</p>
+	<span class="datetime">
+		2015-10-29 20:48	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=242#respond' onclick='return addComment.moveForm( "div-comment-242", "242", "respond", "40" )' aria-label='回复给获取输入焦点'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-246"></div></div>
+	<li class="comment byuser comment-author-wanghaida bypostauthor even depth-2 parent" id="comment-246">
+			<div id="div-comment-246" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://www.chaiwubi.com/' rel='external nofollow' class='url'>拆五笔</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>谢谢支持</p>
+	<span class="datetime">
+		2015-10-30 17:21	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=246#respond' onclick='return addComment.moveForm( "div-comment-246", "246", "respond", "40" )' aria-label='回复给拆五笔'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-249"></div></div>
+	<li class="comment odd alt depth-3 parent" id="comment-249">
+			<div id="div-comment-249" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/651ed9c8064778f5babe9db32aa6e332?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/651ed9c8064778f5babe9db32aa6e332?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			拆五笔：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>把网站的代码给我</p>
+	<span class="datetime">
+		2015-11-04 11:00	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=249#respond' onclick='return addComment.moveForm( "div-comment-249", "249", "respond", "40" )' aria-label='回复给拆五笔'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-251"></div></div>
+	<li class="comment byuser comment-author-wanghaida bypostauthor even depth-4 parent" id="comment-251">
+			<div id="div-comment-251" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://www.chaiwubi.com/' rel='external nofollow' class='url'>拆五笔</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>假冒站长， <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_mad.gif" alt=":mad:" class="wp-smiley" />  <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_mad.gif" alt=":mad:" class="wp-smiley" />  <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_mad.gif" alt=":mad:" class="wp-smiley" /></p>
+	<span class="datetime">
+		2015-11-04 11:04	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=251#respond' onclick='return addComment.moveForm( "div-comment-251", "251", "respond", "40" )' aria-label='回复给拆五笔'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-409"></div></div>
+	<li class="comment odd alt depth-5" id="comment-409">
+			<div id="div-comment-409" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/d10ca8d11301c2f4993ac2279ce4b930?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/d10ca8d11301c2f4993ac2279ce4b930?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			a：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>李鬼主动找上李逵，可以的</p>
+	<span class="datetime">
+		2017-09-05 08:29	</span>
+	<span class="reply">
+			</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-237"></div></div>
+	<li class="comment even thread-even depth-1 parent" id="comment-237">
+			<div id="div-comment-237" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/d7210ddfb6eab549fd3507d9222c6884?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/d7210ddfb6eab549fd3507d9222c6884?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://有' rel='external nofollow' class='url'>园定金生</a>：
+			<div class="floor">
+				35楼			</div>
+		</strong>
+	</div>
+	<p>86版的打不出来 ，RJNT打出来的是“揭发”</p>
+	<span class="datetime">
+		2015-10-27 16:56	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=237#respond' onclick='return addComment.moveForm( "div-comment-237", "237", "respond", "40" )' aria-label='回复给园定金生'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-238"></div></div>
+	<li class="comment byuser comment-author-wanghaida bypostauthor odd alt depth-2 parent" id="comment-238">
+			<div id="div-comment-238" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://www.chaiwubi.com/' rel='external nofollow' class='url'>拆五笔</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>亲说的是哪个字？ <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_question.gif" alt=":?:" class="wp-smiley" /></p>
+	<span class="datetime">
+		2015-10-27 16:58	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=238#respond' onclick='return addComment.moveForm( "div-comment-238", "238", "respond", "40" )' aria-label='回复给拆五笔'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-239"></div></div>
+	<li class="comment even depth-3 parent" id="comment-239">
+			<div id="div-comment-239" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/d7210ddfb6eab549fd3507d9222c6884?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/d7210ddfb6eab549fd3507d9222c6884?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://有' rel='external nofollow' class='url'>园定金生</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>拽</p>
+	<span class="datetime">
+		2015-10-28 13:34	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=239#respond' onclick='return addComment.moveForm( "div-comment-239", "239", "respond", "40" )' aria-label='回复给园定金生'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-240"></div></div>
+	<li class="comment byuser comment-author-wanghaida bypostauthor odd alt depth-4 parent" id="comment-240">
+			<div id="div-comment-240" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://www.chaiwubi.com/' rel='external nofollow' class='url'>拆五笔</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>86版是RJ“X”T哦~，不是RJ“N”T <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_biggrin.gif" alt=":grin:" class="wp-smiley" /></p>
+	<span class="datetime">
+		2015-10-28 15:11	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=240#respond' onclick='return addComment.moveForm( "div-comment-240", "240", "respond", "40" )' aria-label='回复给拆五笔'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-241"></div></div>
+	<li class="comment even depth-5" id="comment-241">
+			<div id="div-comment-241" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/d7210ddfb6eab549fd3507d9222c6884?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/d7210ddfb6eab549fd3507d9222c6884?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://有' rel='external nofollow' class='url'>园定金生</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>我的错，没看清楚 <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_surprised.gif" alt=":eek:" class="wp-smiley" /></p>
+	<span class="datetime">
+		2015-10-29 14:32	</span>
+	<span class="reply">
+			</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-244"></div></div>
+	<li class="comment odd alt depth-5" id="comment-244">
+			<div id="div-comment-244" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/d7210ddfb6eab549fd3507d9222c6884?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/d7210ddfb6eab549fd3507d9222c6884?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://有' rel='external nofollow' class='url'>园定金生</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>大神，“拽”字的字根分解是“扌 日 乙 丿”按八六版的字根”乙“对应的键是N，全码应该是（RJNT)，怎么在这里编码查询八六版的是（RJXT），想不通 <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_cry.gif" alt=":cry:" class="wp-smiley" /></p>
+	<span class="datetime">
+		2015-10-30 10:31	</span>
+	<span class="reply">
+			</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-245"></div></div>
+	<li class="comment even depth-5" id="comment-245">
+			<div id="div-comment-245" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/d7210ddfb6eab549fd3507d9222c6884?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/d7210ddfb6eab549fd3507d9222c6884?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://有' rel='external nofollow' class='url'>园定金生</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>实际上，”拽“也只能是RJXT，才能打得出来</p>
+	<span class="datetime">
+		2015-10-30 10:34	</span>
+	<span class="reply">
+			</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-253"></div></div>
+	<li class="comment byuser comment-author-wanghaida bypostauthor odd alt depth-4 parent" id="comment-253">
+			<div id="div-comment-253" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://www.chaiwubi.com/' rel='external nofollow' class='url'>拆五笔</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>86的编码图解错了，应该是和06的一样</p>
+	<span class="datetime">
+		2015-11-06 10:01	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=253#respond' onclick='return addComment.moveForm( "div-comment-253", "253", "respond", "40" )' aria-label='回复给拆五笔'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-256"></div></div>
+	<li class="comment even depth-5" id="comment-256">
+			<div id="div-comment-256" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/d7210ddfb6eab549fd3507d9222c6884?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/d7210ddfb6eab549fd3507d9222c6884?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://有' rel='external nofollow' class='url'>园定金生</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>我学的是八六版的 <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_arrow.gif" alt=":arrow:" class="wp-smiley" />  <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_cry.gif" alt=":cry:" class="wp-smiley" /></p>
+	<span class="datetime">
+		2015-11-10 14:31	</span>
+	<span class="reply">
+			</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-427"></div></div>
+	<li class="comment odd alt depth-4" id="comment-427">
+			<div id="div-comment-427" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/e8e207bdaefd9fbfd2376229c5dc4375?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/e8e207bdaefd9fbfd2376229c5dc4375?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			絳橙：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>拽那个斜钩和撇看作匕首的“匕”，所以在x上</p>
+	<span class="datetime">
+		2018-02-11 20:46	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=427#respond' onclick='return addComment.moveForm( "div-comment-427", "427", "respond", "40" )' aria-label='回复给絳橙'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-226"></div></div>
+	<li class="comment even thread-odd thread-alt depth-1 parent" id="comment-226">
+			<div id="div-comment-226" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/75e0a1c2e3bf86f5e4871ebc2fdb67b9?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/75e0a1c2e3bf86f5e4871ebc2fdb67b9?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			98五笔：
+			<div class="floor">
+				36楼			</div>
+		</strong>
+	</div>
+	<p>98五笔的&#8221;年&#8221;字编码不是RHFK而是TGJ.</p>
+	<span class="datetime">
+		2015-08-22 16:56	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=226#respond' onclick='return addComment.moveForm( "div-comment-226", "226", "respond", "40" )' aria-label='回复给98五笔'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-229"></div></div>
+	<li class="comment byuser comment-author-wanghaida bypostauthor odd alt depth-2" id="comment-229">
+			<div id="div-comment-229" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://www.chaiwubi.com/' rel='external nofollow' class='url'>拆五笔</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>感谢评论！ <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_biggrin.gif" alt=":grin:" class="wp-smiley" /></p>
+	<span class="datetime">
+		2015-09-03 19:27	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=229#respond' onclick='return addComment.moveForm( "div-comment-229", "229", "respond", "40" )' aria-label='回复给拆五笔'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-181"></div></div>
+	<li class="comment even thread-even depth-1" id="comment-181">
+			<div id="div-comment-181" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/39aa45880af5061e2854580b83787a1a?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/39aa45880af5061e2854580b83787a1a?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			安安：
+			<div class="floor">
+				37楼			</div>
+		</strong>
+	</div>
+	<p>不错 谢谢 : <img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_rolleyes.gif" alt=":roll:" class="wp-smiley" /></p>
+	<span class="datetime">
+		2015-06-14 10:06	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=181#respond' onclick='return addComment.moveForm( "div-comment-181", "181", "respond", "40" )' aria-label='回复给安安'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-158"></div></div>
+	<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-158">
+			<div id="div-comment-158" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/21419497e534286782a8ecf6d0787338?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/21419497e534286782a8ecf6d0787338?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			这个好：
+			<div class="floor">
+				38楼			</div>
+		</strong>
+	</div>
+	<p>真的不错</p>
+	<span class="datetime">
+		2015-04-29 09:54	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=158#respond' onclick='return addComment.moveForm( "div-comment-158", "158", "respond", "40" )' aria-label='回复给这个好'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-159"></div></div>
+	<li class="comment byuser comment-author-wanghaida bypostauthor even depth-2 parent" id="comment-159">
+			<div id="div-comment-159" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://www.chaiwubi.com/' rel='external nofollow' class='url'>拆五笔</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_twisted.gif" alt=":twisted:" class="wp-smiley" /></p>
+	<span class="datetime">
+		2015-05-03 13:34	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=159#respond' onclick='return addComment.moveForm( "div-comment-159", "159", "respond", "40" )' aria-label='回复给拆五笔'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-429"></div></div>
+	<li class="comment odd alt depth-3" id="comment-429">
+			<div id="div-comment-429" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/60b249bfa4de894f0d7d87d3cf9481ad?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/60b249bfa4de894f0d7d87d3cf9481ad?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			达达：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>你好，能给分享一下你的98版五笔词库吗，这样也为五笔事业做出更多的贡献</p>
+	<span class="datetime">
+		2018-02-24 10:44	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=429#respond' onclick='return addComment.moveForm( "div-comment-429", "429", "respond", "40" )' aria-label='回复给达达'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<div id="anchor"><div id="comment-125"></div></div>
+	<li class="comment even thread-even depth-1 parent" id="comment-125">
+			<div id="div-comment-125" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/25caf0c431a97f2c4d6f8df2870b2914?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/25caf0c431a97f2c4d6f8df2870b2914?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			乀文艺青年乀：
+			<div class="floor">
+				39楼			</div>
+		</strong>
+	</div>
+	<p>我</p>
+	<span class="datetime">
+		2014-11-18 14:46	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=125#respond' onclick='return addComment.moveForm( "div-comment-125", "125", "respond", "40" )' aria-label='回复给乀文艺青年乀'>[回复]</a>	</span>
+			</div>
+	<ul class="children">
+	<div id="anchor"><div id="comment-126"></div></div>
+	<li class="comment byuser comment-author-wanghaida bypostauthor odd alt depth-2" id="comment-126">
+			<div id="div-comment-126" class="comment-body">
+		<div class="comment-author vcard">
+		<img alt='' src='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=40&#038;d=identicon&#038;r=g' srcset='http://cn.gravatar.com/avatar/74059dbf57d407e727ad2f5f3356e721?s=80&amp;d=identicon&amp;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />		<strong class="fn">
+			<a href='http://www.chaiwubi.com/' rel='external nofollow' class='url'>拆五笔</a>：
+			<div class="floor">
+							</div>
+		</strong>
+	</div>
+	<p>你，好。。</p>
+	<span class="datetime">
+		2014-11-18 14:57	</span>
+	<span class="reply">
+		<a rel='nofollow' class='comment-reply-link' href='http://www.chaiwubi.com/bmcx/?replytocom=126#respond' onclick='return addComment.moveForm( "div-comment-126", "126", "respond", "40" )' aria-label='回复给拆五笔'>[回复]</a>	</span>
+			</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+			</ol>
+		</div>
+						<div id="respond" class="comment-respond">
+			<h3 id="reply-title" class="comment-reply-title">
+				发表评论
+				<div class="cancel-comment-reply">
+					<div id="real-avatar">
+											</div>	
+					<small><a rel="nofollow" id="cancel-comment-reply-link" href="/bmcx/#respond" style="display:none;">点击这里取消回复。</a></small>
+				</div>
+			</h3>
+						<form action="http://www.chaiwubi.com/wp-comments-post.php" method="post" id="commentform">
+				
+								<div id="comment-author-info">
+					<p class="comment-form-author">
+						<input type="text" name="author" id="author" class="commenttext" value="" tabindex="1" />
+						<label for="author">昵称（必填）</label>
+					</p>
+					<p class="comment-form-email">
+						<input type="text" name="email" id="email" class="commenttext" value="" tabindex="2" />
+						<label for="email">邮箱（必填）</label>
+					</p>
+					<p class="comment-form-url">
+						<input type="text" name="url" id="url" class="commenttext" value="" tabindex="3" />
+						<label for="url">网址</label>
+					</p>
+				</div>
+				
+				<p class="comment-tool">
+					<!-- <a class="smiley" href="" title="插入表情"><i class="icon-smiley"></i></a> -->
+					<span class="smiley-box"><a href="javascript:grin(':?:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_question.gif" alt="" /></a>
+<a href="javascript:grin(':razz:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_razz.gif" alt="" /></a>
+<a href="javascript:grin(':sad:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_sad.gif" alt="" /></a>
+<a href="javascript:grin(':evil:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_evil.gif" alt="" /></a>
+<a href="javascript:grin(':!:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_exclaim.gif" alt="" /></a>
+<a href="javascript:grin(':smile:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_smile.gif" alt="" /></a>
+<a href="javascript:grin(':oops:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_redface.gif" alt="" /></a>
+<a href="javascript:grin(':grin:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_biggrin.gif" alt="" /></a>
+<a href="javascript:grin(':eek:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_surprised.gif" alt="" /></a>
+<a href="javascript:grin(':shock:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_eek.gif" alt="" /></a>
+<a href="javascript:grin(':???:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_confused.gif" alt="" /></a>
+<a href="javascript:grin(':cool:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_cool.gif" alt="" /></a>
+<a href="javascript:grin(':lol:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_lol.gif" alt="" /></a>
+<a href="javascript:grin(':mad:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_mad.gif" alt="" /></a>
+<a href="javascript:grin(':twisted:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_twisted.gif" alt="" /></a>
+<a href="javascript:grin(':roll:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_rolleyes.gif" alt="" /></a>
+<a href="javascript:grin(':wink:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_wink.gif" alt="" /></a>
+<a href="javascript:grin(':idea:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_idea.gif" alt="" /></a>
+<a href="javascript:grin(':arrow:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_arrow.gif" alt="" /></a>
+<a href="javascript:grin(':neutral:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_neutral.gif" alt="" /></a>
+<a href="javascript:grin(':cry:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_cry.gif" alt="" /></a>
+<a href="javascript:grin(':mrgreen:')"><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/smilies/icon_mrgreen.gif" alt="" /></a></span>
+				</p>
+
+		        <textarea id="comment" name="comment" rows="4" tabindex="4"></textarea>
+
+				<p class="form-submit">
+					<input id="submit" name="submit" type="submit" tabindex="5" value="提交留言（Ctrl+Enter）"/>
+					<!-- <input id="reset" name="reset" type="reset" tabindex="6" value="重&nbsp;写" /> -->
+					<input type='hidden' name='comment_post_ID' value='40' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+				</p>
+			</form>
+			<script type="text/javascript">
+				document.getElementById("comment").onkeydown = function (moz_ev){
+					var ev = null;
+					if (window.event){
+						ev = window.event;
+					}else{
+						ev = moz_ev;
+					}
+					if (ev != null && ev.ctrlKey && ev.keyCode == 13){
+						document.getElementById("submit").click();
+					}
+				}
+			</script>
+	 				</div>
+		</div>	</div>
+	<div class="m_r">
+		<h2><span class="line">&nbsp;</span><span class="txt">大家喜欢</span></h2>
+<ul class="h_m_div3_ul cf">
+	<li>
+				<i>+</i><a href="http://www.chaiwubi.com/dzlx-jsdztzxb/" title="金山打字通在线版">金山打字通在线版</a><br />
+				<i>+</i><a href="http://www.chaiwubi.com/%e8%87%aa%e5%ad%a6%e4%ba%94%e7%ac%94%e5%ad%97%e5%9e%8b%e7%9a%84%e6%96%b9%e6%b3%95%e5%92%8c%e6%ad%a5%e9%aa%a4-%e5%a4%a9%e9%81%93/" title="自学五笔字型的方法和步骤 &#8211; 天道">自学五笔字型的方法和步骤 &#...</a><br />
+				<i>+</i><a href="http://www.chaiwubi.com/wbck-q1500/" title="五笔跟打常用前1500字（晓览最新整理）">五笔跟打常用前1500字（晓览...</a><br />
+				<i>+</i><a href="http://www.chaiwubi.com/wbjc-oldtygdq/" title="添雨跟打器旧版（五笔跟打器）使用教程">添雨跟打器旧版（五笔跟打器...</a><br />
+				<i>+</i><a href="http://www.chaiwubi.com/wbjc-wbsm/" title="五笔扫盲">五笔扫盲</a><br />
+			</li>
+</ul>
+
+<h2><span class="line">&nbsp;</span><span class="txt">评论最多</span></h2>
+<ul class="h_m_div3_ul cf">
+	<li>
+			</li>
+</ul>
+
+<div class="sidebar-roll"><h2><span class="line">&nbsp;</span><span class="txt">浏览最多</span></h2>
+<ul class="h_m_div3_ul cf">
+	<li>
+	 
+	<li>N/A</li>
+			</li>
+</ul>
+
+<h2><span class="line">&nbsp;</span><span class="txt">热门标签</span></h2>
+<div class="h_m_div3_ul">
+	<a href='http://www.chaiwubi.com/tag/%e9%ab%98%e7%ba%a7%e7%af%87/' class='tag-link-27 tag-link-position-1' title='5个话题' style="color:#d5d46e;font-size: 14px;;">高级篇</a>
+<a href='http://www.chaiwubi.com/tag/86%e7%89%88%e5%8a%a9%e8%ae%b0%e8%a1%a8/' class='tag-link-43 tag-link-position-2' title='3个话题' style="color:#a025dc;font-size: 14px;;">86版助记表</a>
+<a href='http://www.chaiwubi.com/tag/%e5%a3%81%e7%ba%b8/' class='tag-link-159 tag-link-position-3' title='5个话题' style="color:#6ac018;font-size: 14px;;">壁纸</a>
+<a href='http://www.chaiwubi.com/tag/%e4%ba%94%e7%ac%94%e5%ad%a6%e4%b9%a0%e5%b0%8f%e6%8a%80%e5%b7%a7/' class='tag-link-84 tag-link-position-4' title='4个话题' style="color:#826945;font-size: 14px;;">五笔学习小技巧</a>
+<a href='http://www.chaiwubi.com/tag/%e6%96%b0%e6%89%8b%e7%af%87/' class='tag-link-15 tag-link-position-5' title='5个话题' style="color:#fe8891;font-size: 14px;;">新手篇</a>
+<a href='http://www.chaiwubi.com/tag/86%e7%89%88%e5%ad%97%e6%a0%b9/' class='tag-link-41 tag-link-position-6' title='3个话题' style="color:#a49f04;font-size: 14px;;">86版字根</a>
+<a href='http://www.chaiwubi.com/tag/%e4%ba%94%e7%ac%94%e6%95%99%e7%a8%8b/' class='tag-link-14 tag-link-position-7' title='22个话题' style="color:#215b90;font-size: 14px;;">五笔教程</a>
+<a href='http://www.chaiwubi.com/tag/86/' class='tag-link-144 tag-link-position-8' title='5个话题' style="color:#3e29df;font-size: 14px;;">86</a>
+<a href='http://www.chaiwubi.com/tag/%e6%89%93%e5%ad%97%e6%b8%b8%e6%88%8f/' class='tag-link-72 tag-link-position-9' title='4个话题' style="color:#9ab3eb;font-size: 14px;;">打字游戏</a>
+<a href='http://www.chaiwubi.com/tag/%e5%bc%ba%e5%8c%96%e7%af%87/' class='tag-link-34 tag-link-position-10' title='6个话题' style="color:#261289;font-size: 14px;;">强化篇</a>
+<a href='http://www.chaiwubi.com/tag/%e6%9c%ba%e5%99%a8%e4%ba%ba/' class='tag-link-75 tag-link-position-11' title='5个话题' style="color:#8699a9;font-size: 14px;;">机器人</a>
+<a href='http://www.chaiwubi.com/tag/%e4%ba%94%e7%ac%94%e8%be%93%e5%85%a5%e6%b3%95/' class='tag-link-33 tag-link-position-12' title='12个话题' style="color:#30f8b8;font-size: 14px;;">五笔输入法</a>
+<a href='http://www.chaiwubi.com/tag/%e5%bf%ab%e9%80%9f%e5%ad%a6%e4%b9%a0%e4%ba%94%e7%ac%94%e8%be%93%e5%85%a5%e6%b3%95/' class='tag-link-83 tag-link-position-13' title='4个话题' style="color:#cb5a0d;font-size: 14px;;">快速学习五笔输入法</a>
+<a href='http://www.chaiwubi.com/tag/%e4%ba%94%e7%ac%94%e5%8a%a9%e8%ae%b0%e8%a1%a8/' class='tag-link-42 tag-link-position-14' title='5个话题' style="color:#eb1da2;font-size: 14px;;">五笔助记表</a>
+<a href='http://www.chaiwubi.com/tag/%e8%b7%9f%e6%89%93/' class='tag-link-80 tag-link-position-15' title='4个话题' style="color:#cce8c5;font-size: 14px;;">跟打</a>
+<a href='http://www.chaiwubi.com/tag/%e4%ba%94%e7%ac%94%e5%ad%97%e6%a0%b9%e8%a1%a8/' class='tag-link-40 tag-link-position-16' title='5个话题' style="color:#350ad3;font-size: 14px;;">五笔字根表</a>
+<a href='http://www.chaiwubi.com/tag/%e6%8b%86%e4%ba%94%e7%ac%94/' class='tag-link-17 tag-link-position-17' title='22个话题' style="color:#d7fa6f;font-size: 14px;;">拆五笔</a>
+<a href='http://www.chaiwubi.com/tag/%e8%b7%9f%e6%89%93%e6%af%94%e8%b5%9b/' class='tag-link-69 tag-link-position-18' title='38个话题' style="color:#f7a9b4;font-size: 14px;;">跟打比赛</a>
+<a href='http://www.chaiwubi.com/tag/%e4%b8%ad%e7%ba%a7%e7%af%87/' class='tag-link-23 tag-link-position-19' title='4个话题' style="color:#b7e0fc;font-size: 14px;;">中级篇</a>
+<a href='http://www.chaiwubi.com/tag/%e4%ba%94%e7%ac%94%e6%9f%a5%e8%af%a2/' class='tag-link-77 tag-link-position-20' title='4个话题' style="color:#5f5d86;font-size: 14px;;">五笔查询</a></div>
+
+</div>	</div>
+</div>
+<script type="text/javascript">
+	//全站切换编码显示
+	$("#qtj").click(function(){
+		if($(".dw-bmcx-86").is(":visible")){
+			$(".dw-bmcx-98").show();
+			$(".dw-bmcx-86").hide();
+			$(".bm86").removeClass("on");
+			$(".bm98").addClass("on");
+		}else{
+			$(".dw-bmcx-86").show();
+			$(".dw-bmcx-98").hide();
+			$(".bm98").removeClass("on");
+			$(".bm86").addClass("on");
+		}
+	});
+	$("#qgd").click(function(){
+		if ($("tr[class^='dw-wmb']").is('.none')) {
+			$("tr[class^='dw-wmb']").removeClass('none');
+			$(".dw-bmcx-8698 .jc").text('隐藏');
+		}else {
+			$("tr[class^='dw-wmb']").addClass('none');
+			$(".dw-bmcx-8698 .jc").text('更多');
+		};
+	});
+
+	//难度投票
+	$(".cwb_nd").click(function(){
+		var _this = this;
+		var ndid = $(this).data("ndid");
+		if (getCookie('ndid'+ndid) && getCookie('ndid'+ndid)=='yes') {
+			generate("warning", "您已经投过票了！");
+		}else {
+			$.ajax({
+				url: "http://www.chaiwubi.com/ucenter/json.php",
+				type: "post",
+				data: {ndtp:'yes',ndid:ndid},
+				dataType: 'json',
+				success: function(o) {
+					if (o.code === 200) {
+						$(_this).text(+1);
+						setCookie('ndid'+ndid,'yes','d9999');
+						generate("success", o.msg);
+					} else {
+						generate("warning", o.msg);
+					}
+				}, error: function() {
+					generate("error", '网络错误，请稍后重试！');
+				}
+			})
+		}
+	});
+
+	//手写输入
+	var w=window,d=document,n=navigator,k=d.f.wz;if(w.attachEvent){w.attachEvent("onload",function(){k.focus()})}else{w.addEventListener("load",function(){k.focus()},true)}var hw={};hw.i=d.getElementById("sx");var il=false;if(/msie (\d+\.\d)/i.test(n.userAgent)){hw.i.setAttribute("unselectable","on")}else{var sL=k.value.length;k.selectionStart=sL;k.selectionEnd=sL}hw.i.onclick=function(b){var b=b||w.event;b.stopPropagation?b.stopPropagation():(b.cancelBubble=true);if(d.selection&&d.activeElement.id&&d.activeElement.id=="kw"){hw.hasF=1}else{if(!d.selection){hw.hasF=1}}if(!il){var a=d.createElement("script");a.setAttribute("src","http://www.chaiwubi.com/static/hwsx/hwInput.js");d.getElementsByTagName("head")[0].appendChild(a);il=true}};
+</script>
+<div id="foot">
+	<div class="width1024 cf">
+		<div class="f_2div" style="margin-right:40px; margin-left:10px;">
+			<div class="f_2div_t">关于我们</div>
+			<ul class="f_2div_ul">
+				<li>
+					机器人：<a href="http://wpa.qq.com/msgrd?v=3&uin=207938707&site=chaiwubi&menu=yes" target="_blank">207938707</a><br />
+					网站管理：<a href="http://wpa.qq.com/msgrd?v=3&uin=244062542&site=chaiwubi&menu=yes" target="_blank">244062542</a><br />
+					客服邮箱：<a href="mailto:i@chaiwubi.com" target="_blank">i@chaiwubi.com</a>
+				<br />访问统计： <!--CNZZ统计begin--><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253176739'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1253176739' type='text/javascript'%3E%3C/script%3E"));</script><!--CNZZ统计end-->
+<!--TA统计begin--><script type="text/javascript" src="http://tajs.qq.com/stats?sId=38538065" charset="UTF-8"></script><!--TA统计end--><br />网站备案：<a target="_blank" href="http://www.miibeian.gov.cn/">冀ICP备12018654号</a><br />Copyright &copy; 2013 - 2018 拆五笔				</li>
+				<li>
+<a href="http://www.chaiwubi.com/revisions/">发展历程</a><br>
+<a href="http://www.chaiwubi.com/donate/">捐赠名单</a>
+</li>
+<li>
+<script type="text/javascript">function ReturnMobile(){ var expires = new Date(); expires.setTime(expires.getTime()-1); document.cookie = 'return_desktop=1;path=/;expires=' + expires.toGMTString();}</script><?php if ( wp_is_mobile() ) {?><a onclick="ReturnMobile()" href="javascript:window.location.reload();">切换到移动版</a><?php }?><br>
+<a href="http://www.chaiwubi.com/sitemap.xml" target="_blank">SiteMap</a>
+</li>			</ul>
+		</div>
+		<div class="f_2div">
+			<div class="f_2div_t">关注我们</div>
+			<ul class="f_2div_ul">
+				<li>新浪微博：<a target="_blank" href="http://weibo.com/chaiwubi">chaiwubi</a><br /><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/f-weibo.png" width="110" height="110"></li><li>微信公众号：chaiwubi<br /><img src="http://www.chaiwubi.com/wp-content/themes/chaiwubi/img/f-weixin.png" width="110" height="110"></li>				<li>
+拆五笔官方QQ群：<br>
+小拆教程：<a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5rAnklA">5554574</a><br>
+小拆跟打：<a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5z8GeAD">4344574</a>
+</li>			</ul>
+		</div>
+	</div>
+</div>
+<div id="rocket-to-top" style="display: none;">
+	<div style="opacity:0;display: block;" class="level-2"></div>
+	<div class="level-3"></div>
+</div>
+	<div id="login_x"></div>
+	<div id="login" style="display:none;">
+		<div class="cwb_login_div">
+			
+	<div class="cwb_login_tab">
+		<a rel="nofollow" class="on" href="http://www.chaiwubi.com/wp-login.php">登陆</a>
+		<a rel="nofollow" href="http://www.chaiwubi.com/wp-login.php?action=register">注册</a>
+	</div>
+	<div class="cwb_login_form">
+		<div class="forml">
+			<form method="post" action="http://www.chaiwubi.com/wp-login.php" id="loginform" name="loginform">
+				<p class="login-username">
+					<input id="user_login" class="input" type="text" size="20" value="" placeholder="用户名" name="log">
+				</p>
+				<p class="login-password">
+					<input id="user_pass" class="input" type="password" size="20" value="" placeholder="密码" name="pwd">
+				</p>
+				<p class="login-remember">
+					<label>
+						<input id="rememberme" name="rememberme" type="checkbox" value="forever" />记住我的登录信息
+					</label>
+					<a class="forget-password" href="http://www.chaiwubi.com/wp-login.php?action=lostpassword">
+						忘记密码?
+					</a>
+				</p>
+				<p class="login-submit">
+					<input id="wp-submit" class="button-primary" type="submit" value="登录" name="wp-submit">
+					<input type="hidden" value="http://www.chaiwubi.com/bmcx/" name="redirect_to">
+				</p>
+			</form>
+			<div class="mid"><span>或</span></div>
+			<div class="login_sns">
+				<a rel="nofollow" class="login_qq cwb_login_btn" href="">腾讯QQ登陆</a>
+				<a rel="nofollow" class="login_sina cwb_login_btn" href="">新浪微博登陆</a>
+			</div>
+		</div>
+	</div>
+			</div>
+	</div>
+<script type='text/javascript' src='http://www.chaiwubi.com/wp-content/themes/chaiwubi/js/jquery.SuperSlide.js?ver=2.1.1'></script>
+<script type='text/javascript' src='http://www.chaiwubi.com/wp-content/themes/chaiwubi/js/jquery.noty.packaged.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.chaiwubi.com/wp-content/themes/chaiwubi/js/ZeroClipboard.min.js?ver=2.2.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpl_ajax_url = "http:\/\/www.chaiwubi.com\/wp-admin\/admin-ajax.php";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.chaiwubi.com/wp-content/themes/chaiwubi/js/script.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.chaiwubi.com/wp-content/themes/chaiwubi/js/comments-ajax.js?ver=1.3'></script>
+<script type="text/javascript">
+		$(".sidebar-roll").scrollFollow({
+		bottomObj: "#foot",
+		marginTop: 0,
+		marginBottom: 20,
+		zindex: 100
+	})
+	
+	ZeroClipboard.config({
+		moviePath: "http://www.chaiwubi.com/wp-content/themes/chaiwubi/js/ZeroClipboard.swf"
+	});
+	var client = new ZeroClipboard( $("#copyurl") );
+	client.on( "complete", function(client, args) {
+		generate("success", "已经将以下内容复制到剪贴板：<br /><font style=\"color:#d94840\">" +args.text+ "</font>");
+	});
+	var linkname = new ZeroClipboard( $("#linkname") );
+	linkname.on( "complete", function(linkname, args) {
+		generate("success", "已将名称复制到剪贴板：<br /><font style=\"color:#d94840\">" +args.text+ "</font>");
+	});
+	var linklink = new ZeroClipboard( $("#linklink") );
+	linklink.on( "complete", function(linklink, args) {
+		generate("success", "已将网址复制到剪贴板：<br /><font style=\"color:#d94840\">" +args.text+ "</font>");
+	});
+	var article = new ZeroClipboard( $("#article_copy") );
+	article.on( "complete", function(article, args) {
+		generate("success", "已将本文网址复制到剪贴板：<br /><font style=\"color:#d94840\">" +args.text+ "</font>");
+	});
+
+		with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+	window._bd_share_config = {
+		"common": {
+			"bdSnsKey": {
+				"tsina": "2328451679",
+				"tqq": "101045346",
+			},
+			"bdText": $(".post-info > h1 >a").attr("title"),
+			"bdMini": "2",
+			"bdPic": $(".context img").attr("src"),
+			"bdStyle": "0",
+			"bdSize": "16",
+						"bdDesc": $(".page_t span").text()
+					},
+		"share": {
+			"bdCustomStyle": "http://www.chaiwubi.com/wp-content/themes/chaiwubi/css/bdshare.css"
+		}
+	}
+	</script>
+</body>
+</html>
