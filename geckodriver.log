@@ -1,0 +1,25 @@
+1533685809271	geckodriver	INFO	geckodriver 0.21.0
+1533685809277	geckodriver	INFO	Listening on 127.0.0.1:47960
+1533685810295	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fLAj56U7Uezu"
+1533685813580	Marionette	INFO	Listening on port 39350
+1533685813608	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://libs.baidu.com/jquery/1.10.1/jquery.min.js?ver=1.10.1, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1533685867348	geckodriver	INFO	geckodriver 0.21.0
+1533685867352	geckodriver	INFO	Listening on 127.0.0.1:47539
+1533685868352	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MV5FYVfKQuRW"
+1533685871089	Marionette	INFO	Listening on port 37401
+1533685871166	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=60603cb3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript warning: http://libs.baidu.com/jquery/1.10.1/jquery.min.js?ver=1.10.1, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=60603cb3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript warning: http://libs.baidu.com/jquery/1.10.1/jquery.min.js?ver=1.10.1, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1533686065407	geckodriver	INFO	geckodriver 0.21.0
+1533686065411	geckodriver	INFO	Listening on 127.0.0.1:50864
+1533686066410	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VaTBCasM3XuU"
+1533686069981	Marionette	INFO	Listening on port 34890
+1533686070030	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=60603cb3.js, line 1: TypeError: n.ajax.request is not a function
+[Parent 27961, Gecko_IOThread] WARNING: pipe error (54): Connection reset by peer: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript warning: http://libs.baidu.com/jquery/1.10.1/jquery.min.js?ver=1.10.1, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=60603cb3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript warning: http://libs.baidu.com/jquery/1.10.1/jquery.min.js?ver=1.10.1, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
